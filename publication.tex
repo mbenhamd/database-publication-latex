@@ -48,7 +48,7 @@
 
 \markboth{Experimental Sentiment Analysis on Twitter}{A Real Time Stream and Big Data Process}
 
-\title{Sentiment Analysis on Twitter : Effect of a Social Network} % title
+\title{Sentiment Analysis on Twitter : Effects of a Social Network} % title
 
 \author{Mohamed Ben Hamdoune {\upshape and} Yannis Tannier
 \affil{University of Paris-Descartes}
@@ -72,50 +72,33 @@
 \maketitle
 
 \begin{bottomstuff}
-Jason Scott Sadofsky acknowledges a  Jason Scott, is an American archivist, historian of technology, and filmmaker. Archive Team is a group dedicated to preserving digital history that was founded by Jason Scott in 2009.
-https://www.archiveteam.org/
-Data collected for where on the website of The Archive Team
+Jason Scott Sadofsky acknowledges a Jason Scott, is an American archivist, historian of technology, and filmmaker. Archive Team is a group dedicated to preserving digital history that was founded by Jason Scott in 2009. Data was collected from the website of The Archive Team.
 \end{bottomstuff}
 
 
 \begin{abstract}
-Our purpose is to build a powerful platform \cite{Baltas17} for real-time data analysis of tweets on twitter trends. We also want to analyse all the tweets of 2017 based on a downloaded sample of data (average of 6To).
-All this data analysis will be accessible via a web interface that will be developed.
-We want to build a powerful system of sentiments analysis by making a database structure of tweets which is relevant to impacts and effects. The system should provide a faster way to execute Machine Learning methodologies behind data extracted from Twitter.
-Analysis news actuality by getting an analysis on actual trends with real stream data.
-Build an efficient web interface to get results easily.
-Build a system without false accounts and keep a control on data continuously.
+Our purpose is to build a powerful platform for real-time data analysis of tweets on twitter trends. We also want to analyse all the tweets of 2017 based on a downloaded sample of data (average of 6To). All this data analysis will be accessible via a web interface that will be developed. We want to build a powerful system of sentiments analysis by making a database structure of tweets which is relevant about impacts and effects. The system should provide a faster way to execute Machine Learning methodologies behind data extracted from Twitter. Analysis news actuality by getting an analysis on actual trends with real stream data by building an efficient web interface to get results easily and build a system without false accounts and keep a control on data continuously.
 \end{abstract}
 
 \section{Introduction}
-The main subject is Sentiment Analysis on Twitter, a microblogging platform where people can easily share their thought on anything and their habits too. We have a lot of publications on sentiment analysis but not so much research about impacts and their effect on society.
-The maximum characters are 140 which can be a good thing for the process of analysis because it will make it faster in a way to perform on small messages but in the other hand we should pay attention on precision of results.
-Event it’s an enormously continuous stream of data, Twitter is a good extra sentiment though an online community.  
-Finally, how to optimize all those streaming data and build a web interface for users who want to get data.
-Our project will use many methodologies from Machine Learning like unsupervised methods to make a classification of sentiments, and supervised method to predicate psychological profile.
-Finally, one big step will be and efficient system about control of massive data incoming, a check on false account and spam messages that will destroy our results for example.
+The main subject is Sentiment Analysis on Twitter, a microblogging platform where people can easily share their thought on anything and their habits too. We have a lot of publications on sentiment analysis but not so much research about impacts and their effect on society. The maximum characters are 140 which can be a good thing for the process of analysis because it will make it faster in a way to perform on small messages but in the other hand we should pay attention on accuracy of results. Event it’s an enormously continuous stream of data, Twitter is a good extra sentiment though an online community. Therefore, how to optimize all those streaming data and build a web interface for users who want to get data. Our project will use many methodologies from Machine Learning like unsupervised methods to make a classification of sentiments, and supervised method to predicate psychological profile. Finally, one big step will be and efficient system about control of massive data incoming, a check on false account and spam messages that will destroy our results for example.
  
 \begin{quote}{Jeffrey Zeldman}
 “The best way to engage honestly with the marketplace via Twitter is to never use the words "engage," "honesty," or "marketplace." 
 \end{quote}
 
-First, we will talk \cite{Meisheri17} about scripts using Pyspark with Scikit-learn and TextBlop. 
-Scikit-learn allows us a a lots simple and efficient tools for data mining and data analysis, it’s accessible to everybody and reusable in various contexts. It’s Open source and commercially usable.
-TextBlob is a library fro processing textual data. It provides a simple API for diving into common natural language processing (NLP) tasks such as sentiment analysis, classification, translation, and more. TextBlop use Google translate for sentences that are not in English, so in free and anonymous usage are limited 1000 words/day which is why we could not have analysed every tweet on the database.
-The Spark Python API (PySpark) exposes the Spark programming model to Python. We used it because it simpler and we have a gain of productivity against language such as Scala or Java. Python is dynamically type, so RDDs can hold objects of multiple types.
-To run all those libraries, we used Amazon EMR, an Amazon EMR release is a set of open-source applications from the big-data ecosystem. Each release comprises different big-data applications, components, and features that we selected to have Amazon EMR installed and configured when we create a cluster (more here). 
-For the real-stream part, we created a module for Data Stream with Kinesis MQTT (exemple). We used a StreamListener that will permanently get data from Twitter and with TextBlop we run an analysis on each tweet and sum all of them.
+In this study, we introduce readers to the problems of Data Processing and Cloud Computation, which have been rapidly developing over the last decade. The rest of this document is organized as follows. In Sect. 2, we provide a specific view of Tweet format. Development, problems, definitions and main trends of this area are described in Sect 3. We analyze in Sect 6, and discuss in Sect 7 about several problems we have been through.
+Finally, we talk about others idea and features that were not implemented due to a lack of time in Sect 8.
 
-MQTT is a publish-subscribe messaging protocol based on the TCP / IP protocol, it was originally developed by Andy Stanford-Clark (IBM) and Arlan Nipper (EurtoTech), then offered to the Open Source community (For information, MQTT v3.1.1 is now an OASIS standard).
-POMS (Profile Of Mood States) is a psychological rating scale used for calculating the mood state score, the result depends on the values of 65 adjectives. For our project we reorganized the adjectives in two ways, first in 3 categories: Positive, Negative and Neutral, second way in 5 categories: Joy, Surprised, Fear, Angry, Sadness. More about the way to calculate POMS adjectives, click here.
-We developped the website using React.js, we could design simple views for each state in our application, and React efficiently update and render just the right components when your data changes.
-Text from tweets are inherently noisy. They contain twitter specific words along with hashtags and username mentions. Cleaning the text before further processing helps to generate better features and semantics.
+\section{Related Work}
+\label{sec:related_work}
 
-\begin{figure*}[t]
-\centerline{\includegraphics[height=0.5\textwidth]{trump.png}}
-\caption{Results predicted by our models with Donald John Trump (born June 14, 1946), the 45th and current President of the United States.}
-  \label{fig:trump_results}
-\end{figure*}
+To begin, ye can refer to this article [cite palpatine] because we can relate that it is a point of start, it gives us a theoretical review on the development of Sentiment Analysis.
+The interested reader can also refer to previous surveys in the area, like [cite] and [cite], that helped us on machine learning techniques. As an active research field that has emerged for a long time now, sentiment analysis is now been greatly implement but it is also with a cost (for example, IBM Watson Tone Analyzer). Sentiment analysis is a discipline that extracts people’s feelings, opinions, thoughts and behaviors from user’s text data using Natural Language Processing (NLP) methods. 
+For methodologies on preprocessing, and feature generation, we based our work on [deep learning]. Then we can also cite [chinois publication] for a reason, they removed numbers from theirs tweet thinking that in general, numbers are of no use when measuring sentiment and are removed from tweets to refine the tweet content but we wanted to keep them thinking the contrary.
+Based on 36 million tweets collected from Twitter, Wang et al. proposed a real-time sentiment analysis system for classification of political tweets during 2012 US presidential elections. Their model achieved 59% accuracy in predicting the sentiments of political tweets (Wang et al., 2012).
+We had over 800 million tweets in English and all that data to analyze where possible just because of the MapReduce Model [cite les grecs] in majority.
+
 
 The data for this task consists of tweets across various domains, classified into four emotions : joy, sadness, anger and fear. The training data additionally carries a real-valued score between 0 and 1 per tweet, indicating the degree of the emotion (that the tweet is classified as) the present in the tweet.
 A very quick presentation of all steps in the project:
@@ -127,42 +110,56 @@ A very quick presentation of all steps in the project:
 \item Web interface.
 \end{enumerate}
 
+\section{Methodology}
+\label{sec:methodology}
 
-\section{Application area:Predicting Psychological Profil}
-\label{sec:application area}
-%
-\looseness-1A few researchers have addressed the issue of realistic
-human iris synthesis. Lefohn et al. blend several textures created by an
-artist, each containing some eye feature. Other image-based approaches
-have been proposed by Cui et al., Wecker et~al., and Makthal and Ross.
-Essentially, they decompose a set of iris images using techniques such
-as principal component analysis, multiresolution and wavelets, and
-Markov random fields, and recombine the obtained data to generate new
-images of irises. Zuo and Schmid created a fiber-based 3D model of the
-iris. Lam and Baranoski introduced a predictive light transport model
-for the human iris, which computes the spectral responses of iridal
-tissues described by biophysical parameters. Fran\c{c}ois et~al.
-estimate iris height maps from gray-scale images. All these approaches
-use stationary pupil sizes.
+blabla
 
-\section{Previous work}
-\label{sec:previous review}
+\subsection{Preprocessing (Data clean)}
+\label{subsub:preprocessing}
 
-We now turn our attention to the following interesting question: whether the sub-jective data that exist on the web carry useful information. Information can be thought of as data that reduce our uncertainty about some subject. According to this view, the diversity and pluralism of information on different topics can have a rather negative role. It is well understood, that true knowledge is being described by facts, rather than subjective opinions. However, this diversity in opinions, when analyzed, may deliver new information and contribute to the overall knowledge of a subject matter. This is especially true when the object of our study is the attitude of people. In this case, opinion ative data can be useful in order to uncover the distribution of sentiments across time, or different groups of people.
+blabla
 
-\section{Empirical study}
-\label{sub:empirical}
+\subsection{Feature Generation}
+\label{subsub:feature}
+
+The data for this task consists of tweets across various domains, classified into four emotions: joy, sadness, anger and fear. The training data additionally carries a real-valued score between 0 and 1 per tweet, indicating the degree of the emotion (that the tweet is classified as) the present in the tweet.
+
+\section{Cloud Computing}
+\label{sec:cloud_computing}
+
+Cloud computing was used for the project, the trend today is machine learning, which is a form of artificial intelligence that uses algorithms to learn from data. These systems build models from incoming transactional data, then find patterns in that data to make predictions. These predictions can be a simple as providing a recommendation to a shopper on an e-commerce website or as complex as determining if a brand of automobile should be retired. As with their learning-system forebears, the overhead of machine-learning systems is typically huge. But today we have the option to place these systems in the cloud. Amazon Web Services, for example, supports machine learning using AWS's algorithms to read native AWS data (such as RDS, Redshift, and S3). Google has supported predictive analysts for some time with its Google Prediction API, and Microsoft provides an Azure machine-learning service. The ability to predict the future for both tactical and strategic purposes has eluded us because of prohibitive resource requirements. But today, thanks to the cloud for machine learning as a service, you can apply this technology far and wide on all that data enterprises have been collecting.
+
+\subsection{AWS (Amazon Web Service)}
+\label{subsub:aws}
+
+blabla
+
+\subsection{MapReduce Model and Spark Framework}
+\label{subsub:mapreduce_spark}
+
+blabla
+
+\subsection{Conception of the Database for the Web Interface}
+\label{subsub:conception}
 
 The World Wide Web (Web, for short), is a distributed information system based on hypertext. Web interfaces to databases have become very important. After outlining several reasons for interfacing databases with the Web, we provide an overview of Web Technology. We then outline techniques for building Web interfaces to databases.
 
-\subsection{Implementation}
-\label{subsub:implementation}
-%
-The term data mining refers loosely to process of semiautomaticcally analyzing large databases to find useful patterns. Like knowledge discovery in artificial intelligence (also called machine learning) or statistical alaysis, we use data mining to discover rules and patterns from data. However, data mining differs from machine learning and statistics in that it deals with large volumes of data, stored primarily on disk. That is, data mining deals with “knowledge discovery in databases”. Some types of knowledge discovered from a database can be represented by a set of rules. The following is an example of a rule, stated informally: “Donald Trump with his totals of retweets incomes are greater than the average with the most sadly effects on users”. Of course such riles are not universally true, and have degrees of “support” and “confidence”, as we shall see. Other types of knowledge are represented by equations relating different variables to each other, or by other mechanisms for predicting outcomes when the values of some variables are known. 
-There are a variety of possible types of patterns that may be useful, and different techniques are used to find different types of patterns. Usually there is a manual component to data mining, consisting of preprocessing data to a form acceptable to the algorithms and postprocessing of discovered patterns. For this reasin, data mining is really a semiautomatic process in real life. 
-The mode widely used applications are those that requires some sort of prediction. In our case, we want to predict emotions and sentiments, then a psychological profil. 
-Prediction is one of the mort important types of data mining. We outline what is classification, study techniques for building one type of classifiers, called decision-tree classifiers, and then study other predicition techniques.
-Abstractly, the classification problem is this: Given that user belong to the archive, and given his tweet. We use a given instances (called training instances) of items along with the classes to which they belong, the problem is to predict the class (in our study it is a sentiment or an emotion) to which a new item belongs.
+
+\section{Implementation}
+\label{sec:implementation}
+
+\We have used the following technologies for many reasons. Hadoop assumes that conventional approaches (consisting of developing ever more powerful centralized systems) have technical and financial limitations. The development of distributed systems consisting of machines or nodes, relatively affordable (commodity hardware) and scaling out is an alternative from a technical and financial point of view A distributed system comprising tens, hundreds or thousands of nodes will regularly be confronted with hardware and / or software failures. Google has developed the Google File System (GFS), ancestor of the Hadoop Disrelated File System (HDFS) and The MapReduce Approach. MapReduce is a programming model designed specifically to read, milk and write very large volumes of data. A Hadoop program usually implements both map tasks and reduce tasks.
+Hadoop is particularly effective for dealing with problems that have one or more of the following characteristics: Volume of data to store or process very important. Need to perform processing on all data (batch rather than transactional, therefore). Heterogeneous data in terms of origin, structure, and format (JSON) Execute the tasks of a Hadoop job in parallel, without a pre-established order. A Hadoop cluster is made up of tens, hundreds, or thousands of nodes. It is the addition of the storage and processing capacities of each of these nodes which makes it possible to offer a storage space and a computing power yet to handle data volumes of several To or Po. To improve the performance of a read / write cluster, Hadoop’s file management system, HDFS, writes and reads files in blocks of 64 MB or 128 MB. Working on such large blocks maximizes data transfer rates by limiting search time on hard drives (seek time). // Input file graph and block MapReduce is a programming model designed specifically to read, process and write very large volumes of data. A Hadoop program usually implements both map tasks and reduce tasks. A Hadoop program is usually divided into three parts: The driver, which runs on a client machine, is responsible for configuring the job and submitting it for execution. The map is responsible for reading and processing data stored on disk. The reducer is responsible for consolidating the results from the map and write them on disk.
+
+\section{Results}
+\label{sub:results}
+
+\begin{figure*}[t]
+\centerline{\includegraphics[height=0.5\textwidth]{trump.png}}
+\caption{Results predicted by our models with Donald John Trump (born June 14, 1946), the 45th and current President of the United States.}
+  \label{fig:trump_results}
+\end{figure*}
 
 \section{Analysis}
 \label{sec:analysis}
@@ -185,10 +182,6 @@ A Hadoop program is usually divided into three parts:
 The driver, which runs on a client machine, is responsible for configuring the job and submitting it for execution.
 The map is responsible for reading and processing data stored on disk.
 The reducer is responsible for consolidating the results from the map and write them on disk.
-
-\subsection{Data Preprocessing}
-\label{subsec:data_pre}
-Ok
 
 \section{Discussion}
 \label{sec:results}
