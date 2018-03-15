@@ -58,6 +58,32 @@
 \url{http://dx.doi.org/10.1007/978-3-319-57045-7_2}}
 
 
+\bibitem[\protect\citeauthoryear{Apoorv, Xie, Vovsha, Rambow, and
+  Passonneau}{Apoorv et~al\mbox{.}}{2011}]%
+        {Rebecca11}
+{Agarwal Apoorv}, {Boyi Xie}, {Ilia Vovsha}, {Owen Rambow}, {and} {Rebecca
+  Passonneau}. 2011.
+\newblock \showarticletitle{Sentiment Analysis of Twitter Data}.
+\newblock  (2011), 30--38.
+\newblock
+\showISBNx{978-1-932432-96-1}
+\showURL{%
+\url{http://dl.acm.org/citation.cfm?id=2021109.2021114}}
+
+
+\bibitem[\protect\citeauthoryear{{Bin Lin and Fiorella Zampetti and Gabriele
+  Bavota and Massimiliano Di Penta and Michele Lanza, and Rocco Oliveto}}{{Bin
+  Lin and Fiorella Zampetti and Gabriele Bavota and Massimiliano Di Penta and
+  Michele Lanza, and Rocco Oliveto}}{2018}]%
+        {Lin18}
+{{Bin Lin and Fiorella Zampetti and Gabriele Bavota and Massimiliano Di Penta
+  and Michele Lanza, and Rocco Oliveto}}. 2018.
+\newblock \showarticletitle{{Sentiment Analysis for Software Engineering: How
+  Far Can We Go ?}}
+\newblock  (2018), {1--11}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{{Felipe Bravo-Marquez and Eibe Frank and Saif
   M. Mohammad and Bernhard Pfahringer}}{{Felipe Bravo-Marquez and Eibe Frank
   and Saif M. Mohammad and Bernhard Pfahringer}}{2016}]%
@@ -68,6 +94,30 @@
   Tweets by Multi-Label Classification}}.
 \newblock  (oct {2016}), {536--539}.
 \newblock
+
+
+\bibitem[\protect\citeauthoryear{Gautam and Yadav}{Gautam and Yadav}{2014}]%
+        {Gautam14}
+{Geetika Gautam} {and} {Divakar Yadav}. 2014.
+\newblock \showarticletitle{Sentiment Analysis of Twitter Data Using Machine
+  Learning Approaches and Semantic Analysis}.
+\newblock  (09 2014).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gupta, Negi, Vishwakarma, Rawat, and
+  Badhani}{Gupta et~al\mbox{.}}{2017}]%
+        {Badhani17}
+{Bhumika Gupta}, {Monika Negi}, {Kanika Vishwakarma}, {Goldi Rawat}, {and}
+  {Priyanka Badhani}. 2017.
+\newblock \showarticletitle{Study of Twitter Sentiment Analysis using Machine
+  Learning Algorithms on Python}.
+\newblock {\em International Journal of Computer Applications\/} {165}, 9 (May
+  2017), 29--34.
+\newblock
+\showISSN{0975-8887}
+\showDOI{%
+\url{http://dx.doi.org/10.5120/ijca2017914022}}
 
 
 \bibitem[\protect\citeauthoryear{{Hardik Meisheri and Rupsa Saha and Priyanka
@@ -127,6 +177,19 @@
 \newblock
 \showDOI{%
 \url{http://dx.doi.org/10.1016/j.procs.2017.12.044}}
+
+
+\bibitem[\protect\citeauthoryear{{Walaa Medhat and Ahmed Hassan and Hoda
+  Korashy}}{{Walaa Medhat and Ahmed Hassan and Hoda Korashy}}{2014}]%
+        {Medhat14}
+{{Walaa Medhat and Ahmed Hassan and Hoda Korashy}}. {2014}.
+\newblock \showarticletitle{{Sentiment analysis algorithms and applications: A
+  survey}}.
+\newblock {\em {Ain Shams Engineering Journal}\/} {5}, 4 ({2014}),
+  {1093--1113}.
+\newblock
+\showDOI{%
+\url{http://dx.doi.org/{10.1016/j.asej.2014.04.011}}}
 
 
 \bibitem[\protect\citeauthoryear{{Zhao Jianqiang and Gui Xiaolin}}{{Zhao

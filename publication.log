@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.2.15)  15 MAR 2018 15:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.2.15)  15 MAR 2018 17:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,18 +6,6 @@ entering extended mode
 (./publication.tex
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 5 language(s) loaded.
-
-! LaTeX Error: \usepackage before \documentclass.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \usepackage{
-                placeins}
-\usepackage may only appear in the document preamble, i.e.,
-between \documentclass and \begin{document}.
-
 (./acmtog.cls
 Document Class: acmtog 2012/03/07
 (/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
@@ -107,22 +95,29 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 ))
-(./publication.aux)
+(./publication.aux
+
+LaTeX Warning: Label `fig:trump_results' multiply defined.
+
+
+LaTeX Warning: Label `fig:trump_results' multiply defined.
+
+)
 \openout1 = `publication.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 26.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -190,44 +185,44 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 47.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 45.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 47.
+(Font)              <17.28> on input line 45.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 47.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 47.
+(Font)              <12> on input line 45.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 45.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 52.
+(Font)              <8> on input line 50.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 52.
+(Font)              <6> on input line 50.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 52.
+(Font)              <5> on input line 50.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 52.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 50.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 52.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 50.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 52.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 52.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 50.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 52.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
 
 ! Undefined control sequence.
 \doiline ->{\tt DOI:}http://dx.doi.org/\@acmDOI 
                                                 
-l.52 \end{bottomstuff}
+l.50 \end{bottomstuff}
                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -236,7 +231,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
@@ -303,9 +298,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 140.
+(Font)              <7> on input line 138.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 140.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 138.
 
 Overfull \vbox (0.633pt too high) has occurred while \output is active []
 
@@ -319,51 +314,70 @@ File: Trump-results-analysis_exemple.png Graphic file (type png)
 
 <use Trump-results-analysis_exemple.png>
 Package pdftex.def Info: Trump-results-analysis_exemple.png used on input line 
-153.
+151.
 (pdftex.def)             Requested size: 240.0pt x 125.9823pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
+<monthly_analysis_joy_sadness-exemple.png, id=18, 673.51625pt x 352.31625pt>
+File: monthly_analysis_joy_sadness-exemple.png Graphic file (type png)
+
+<use monthly_analysis_joy_sadness-exemple.png>
+Package pdftex.def Info: monthly_analysis_joy_sadness-exemple.png used on input
+ line 160.
+(pdftex.def)             Requested size: 240.0pt x 125.54353pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<retweeted_emotion_sentiment_trump-exemple.png, id=19, 666.49pt x 685.56125pt>
+File: retweeted_emotion_sentiment_trump-exemple.png Graphic file (type png)
+
+<use retweeted_emotion_sentiment_trump-exemple.png>
+Package pdftex.def Info: retweeted_emotion_sentiment_trump-exemple.png used on 
+input line 168.
+(pdftex.def)             Requested size: 240.0pt x 246.86462pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
 
 Overfull \vbox (0.633pt too high) has occurred while \output is active []
 
- [3 <./Trump-results-analysis_exemple.png>]
+ [3 <./Trump-results-analysis_exemple.png> <./monthly_analysis_joy_sadness-exem
+ple.png> <./retweeted_emotion_sentiment_trump-exemple.png>]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+
 ! Misplaced alignment tab character &.
-l.190 ... (Archivist) and Diana Yuan (Co-Founder &
+l.204 ... (Archivist) and Diana Yuan (Co-Founder &
                                                    Vice President, Talent & ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -373,7 +387,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.190 ...an (Co-Founder & Vice President, Talent &
+l.204 ...an (Co-Founder & Vice President, Talent &
                                                    Operations from Indico).
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -401,35 +415,69 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ì in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--98
+Underfull \hbox (badness 2142) in paragraph at lines 111--121
+[]\OT1/ptm/m/n/8 Bhumika Gupta, Monika Negi, Kanika Vish-wakarma, Goldi Rawat,
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 111--121
+\OT1/ptm/m/n/8 and Priyanka Bad-hani. 2017.  Study of Twit-ter Sen-ti-ment Anal
+-
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 111--121
+\OT1/ptm/m/n/8 y-sis us-ing Ma-chine Learn-ing Al-go-rithms on Python.  \OT1/pt
+m/m/it/8 In-ter-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--148
 []\OT1/ptm/m/n/8 Nazan []Ozt[]urka and Serkan Ay-vazb. 2017.  Sen-ti-ment anal-
 y-
  []
 
 
-Underfull \hbox (badness 3838) in paragraph at lines 91--98
+Underfull \hbox (badness 3838) in paragraph at lines 141--148
 \OT1/ptm/m/n/8 sis on Twit-ter: A text min-ing ap-proach to the Syr-ian refugee
 
  []
 
 
-Underfull \hbox (badness 5161) in paragraph at lines 91--98
+Underfull \hbox (badness 5161) in paragraph at lines 141--148
 \OT1/ptm/m/n/8 cri-sis.  \OT1/ptm/m/it/8 Telem-at-ics and In-for-mat-ics \OT1/p
 tm/m/n/8 35 (Oct. 2017), 136--147.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--142
+Underfull \hbox (badness 10000) in paragraph at lines 185--193
+[]\OT1/ptm/m/n/8 Walaa Med-hat and Ahmed Has-san and Hoda Ko-rashy. 2014.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--193
+\OT1/ptm/m/n/8 Sen-ti-ment anal-y-sis al-go-rithms and ap-pli-ca-tions: A sur-v
+ey.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--193
+\OT1/ptm/m/it/8 Ain Shams En-gi-neer-ing Jour-nal \OT1/ptm/m/n/8 5, 4 (2014), 1
+093--1113.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--205
 []\OT1/ptm/m/n/8 Zhao Jian-qiang and Gui Xi-aolin. 2017.  Com-par-i-son Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--142
+Underfull \hbox (badness 10000) in paragraph at lines 198--205
 \OT1/ptm/m/n/8 search on Text Pre-processing Meth-ods on Twit-ter Sen-ti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--142
+Underfull \hbox (badness 10000) in paragraph at lines 198--205
 \OT1/ptm/m/n/8 ment Anal-y-sis.  \OT1/ptm/m/it/8 IEEE Ac-cess \OT1/ptm/m/n/8 5 
 (Feb. 2017), 2870--2879.
  []
@@ -437,30 +485,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--142
 )
 Overfull \vbox (0.633pt too high) has occurred while \output is active []
 
- [4
+ [4]
+(./publication.aux)
 
-]
-(./publication.aux) ) 
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2091 strings out of 494902
- 28283 string characters out of 6179891
- 96399 words of memory out of 5000000
- 5349 multiletter control sequences out of 15000+600000
+ 2106 strings out of 494902
+ 28795 string characters out of 6179891
+ 97985 words of memory out of 5000000
+ 5362 multiletter control sequences out of 15000+600000
  32237 words of font info for 83 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  39i,8n,25p,2208b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
-}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
-tmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on publication.pdf (4 pages, 131646 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8
+a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on publication.pdf (4 pages, 171947 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
+ 55 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
