@@ -8,49 +8,58 @@ Database file #1: publication-bibfile.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--no journal in Baltas17
 Warning--no number and no volume in Baltas17
+Warning--no journal in Rebecca11
+Warning--no number and no volume in Rebecca11
+Warning--require articleno with numpages field in Rebecca11
+Warning--no journal in Lin18
+Warning--no number and no volume in Lin18
 Warning--no journal in Marquez16
 Warning--no number and no volume in Marquez16
+Warning--no journal in Gautam14
+Warning--no number and no volume in Gautam14
+Warning--require articleno with numpages field in Badhani17
 Warning--page numbers missing in both pages and numpages fields in Poddar16
 Warning--unusual to have number, but no volume, for Palpanas11
-You've used 9 entries,
+Warning--unrecognized DOI value [{10.1016/j.asej.2014.04.011}]
+You've used 14 entries,
             5290 wiz_defined-function locations,
-            1438 strings with 18256 characters,
-and the built_in function-call counts, 9952 in all, are:
-= -- 1590
-> -- 237
+            1484 strings with 19831 characters,
+and the built_in function-call counts, 15683 in all, are:
+= -- 2355
+> -- 441
 < -- 0
-+ -- 64
-- -- 136
-* -- 523
-:= -- 969
-add.period$ -- 45
-call.type$ -- 9
-change.case$ -- 49
-chr.to.int$ -- 9
-cite$ -- 15
-duplicate$ -- 751
-empty$ -- 542
-format.name$ -- 104
-if$ -- 2527
++ -- 124
+- -- 257
+* -- 909
+:= -- 1585
+add.period$ -- 70
+call.type$ -- 14
+change.case$ -- 83
+chr.to.int$ -- 14
+cite$ -- 28
+duplicate$ -- 1153
+empty$ -- 835
+format.name$ -- 188
+if$ -- 3857
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 36
-newline$ -- 120
-num.names$ -- 72
-pop$ -- 216
+missing$ -- 56
+newline$ -- 168
+num.names$ -- 112
+pop$ -- 349
 preamble$ -- 1
-purify$ -- 94
+purify$ -- 153
 quote$ -- 0
-skip$ -- 250
+skip$ -- 377
 stack$ -- 0
-substring$ -- 987
-swap$ -- 92
-text.length$ -- 89
+substring$ -- 1590
+swap$ -- 136
+text.length$ -- 188
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 126
-warning$ -- 6
-while$ -- 93
+type$ -- 196
+warning$ -- 15
+while$ -- 137
 width$ -- 0
-write$ -- 199
-(There were 6 warnings)
+write$ -- 291
+(There were 15 warnings)
