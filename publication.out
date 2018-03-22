@@ -1,0 +1,16 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.3}{Related Work}{}% 2
+\BOOKMARK [1][-]{section.4}{Cloud computing}{}% 3
+\BOOKMARK [2][-]{subsection.5}{MapReduce Model and Spark Framework}{section.4}% 4
+\BOOKMARK [1][-]{section.6}{Methodoloy}{}% 5
+\BOOKMARK [2][-]{subsection.10}{Pre-processing}{section.6}% 6
+\BOOKMARK [2][-]{subsection.11}{Machine learning for Emotion and Sentiment classification}{section.6}% 7
+\BOOKMARK [2][-]{subsection.12}{Feature Generation}{section.6}% 8
+\BOOKMARK [1][-]{section.13}{Implementation}{}% 9
+\BOOKMARK [1][-]{section.14}{Results}{}% 10
+\BOOKMARK [2][-]{subsection.15}{English tweets monthly analyzed}{section.14}% 11
+\BOOKMARK [2][-]{subsection.17}{Psychological profile for any users}{section.14}% 12
+\BOOKMARK [2][-]{subsection.19}{Impacts of tweets}{section.14}% 13
+\BOOKMARK [1][-]{section.21}{Discussion}{}% 14
+\BOOKMARK [1][-]{section.24}{Conclusion and Future Work}{}% 15
+\BOOKMARK [1][-]{section.26}{References}{}% 16
