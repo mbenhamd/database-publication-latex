@@ -108,6 +108,18 @@ In this paper we introduce two new resources for pre-processing twitter data, as
 Tweets in a general way contain a lot of opinions but they are expressed in different ways by users. It deals with the preparation that removes the repeated words and punctuations and improves the efficiency the data. Forward other process is doing like converting upper case to lower case. User names and URLs are not important from the perspective of future processing; hence their presence is futile. All usernames and URLs are removed to improve increase the real result.
 // Ajouter histogramme des 10 premiers langues de l’archive.
 
+
+\subsection{Machine learning for Emotion and Sentiment classification}
+\label{subsub:ml}
+
+In order to predict the feeling (Postive, negative, neutral) and emotion (joy, anger, sadness, fear) for each tweet, we used 2 methods.
+To determine the feeling of the tweet, we used the TextBlod librairy which provides a simple API of Natural Languge processing and thus allows us to make the sentiment anlysise. For this, Textblod calculates a Polarity rate of -1 to +1 or -1 corresponds to an extremely negative twitch and an extremely positive +1.
+To determine the emotion, we had to create our own classification model (classification in English what) with scikit-learn.
+To do this we took a tweet dataset that we labalised (after having data cleaned as indicated in the previous paragraph) thanks to indico.
+We then transform this dataset into a term document matrix and apply a TF-IDF standardization to evaluate the importance of the term content in each tweet.
+Finally we applied a SVM for the classification.
+Once the model was extracted, we used it with spark to predict the emotion of all the tweets.
+
 \subsection{Feature Generation}
 \label{subsub:featureGeneration}
 
@@ -139,6 +151,8 @@ We have used the following technologies for many reasons. Hadoop assumes that co
 \subsection{English tweets monthly analyzed}
 \label{subsub:english_tweets_monthly}
 
+We analyzed the set of English tweets on the year, dividing by month to see any evolution or regression during the year. A thorough American sociological study on the year 2017 could give the reasons for the graph. We were surprised at the symmetry between joy and sadness, proof that the emotional analysis is not as biased as one might think. 
+
 
 \begin{figure}[h!]
 {\includegraphics[width=\linewidth]{monthly_analysis_joy_sadness-exemple.png}}
@@ -148,8 +162,12 @@ We have used the following technologies for many reasons. Hadoop assumes that co
 
 
 
+
 \subsection{Psychological profile for any users}
 \label{subsub:psychological_profile}
+
+We have implemented a psychological profile by current user in the database (note that this feature and also available in the case of streaming too). Here we have taken the case of Donald Trump as an example since he is an active user of the social network.
+The problem of sentiment analysis from archive tweets is that there are not so many tweets as one does not imagine per user.
 
 \begin{figure}[h!]
 {\includegraphics[width=\linewidth]{Trump-results-analysis_exemple.png}}
@@ -161,6 +179,9 @@ We have used the following technologies for many reasons. Hadoop assumes that co
 \subsection{Impacts of tweets}
 \label{subsub:impacts_tweets}
 
+In this section, we wanted to talk about the effect of tweets on the community, taking the utmost retweeting the tweet of Donals Trump. We have 414 716 retweet which allows to have a number of acceptable messages to use the word "impacts". It is interesting in the field of politics but also in the media world to have an analysis of what is said and done in the world today.
+
+
 \begin{figure}[h!]
 {\includegraphics[width=\linewidth]{retweeted_emotion_sentiment_trump-exemple.png}}
 \caption{Results for the emotions ratio on the 414 716 retweeted Donald Trump tweets computed.}
@@ -171,14 +192,7 @@ We have used the following technologies for many reasons. Hadoop assumes that co
 \section{Discussion}
 \label{sec:discussion}
 
-We now turn our attention to the following interesting question: whether the subjective data that exist on the web carry useful information. Information can be thought of as data that reduce our uncertainty about some subject. According to this view, the diversity and pluralism of information on different topics can have a rather negative role. It is well understood, that true knowledge is being described by facts, rather than subjective opinions. However, this diversity in opinions, when analyzed, may deliver new information and contribute to the overall knowledge of a subject matter. This is especially true when the object of our study is the attitude of people. In this case, opinion native data can be useful to uncover the distribution of sentiments across time, or different groups of people. However, data mining differs from machine learning and statistics in that it deals with large volumes of data, stored primarily on disk. Some types of knowledge discovered from a database can be represented by a set of rules. The following is an example of a rule, stated informally: “Donald Trump and his totals of retweets incomes are greater than the average with the most sadly effects on users”. Of course, such riles are not universally true, and have degrees of “support” and “confidence”. Other types of knowledge are represented by equations relating different variables to each other, or by other mechanisms for predicting outcomes when the values of some variables are known. There are a variety of possible types of patterns that may be useful, and different techniques are used to find different types of patterns. Usually there is a manual component to data mining, consisting of preprocessing data to a form acceptable to the algorithms and post-processing of discovered patterns. For this reason, data mining is really a semiautomatic process in real life. The mode widely used applications are those that requires some sort of prediction. In our case, we want to predict emotions and sentiments, then a psychological profile. We outline what is classification, study techniques for building one type of classifiers, called decision-tree classifiers, and then study other predication techniques. Abstractly, the classification problem is this: Given that user in the archive, and given his tweet. We use a given instances of items along with the classes to which they belong, the problem is to predict the class. Since we associate several classes together, then we come to conflicting analyzes. This is an example with a sample of 383 623 424 tweets in English.
-
-\begin{figure}[h!]
-{\includegraphics[width=\linewidth]{final_plot_contradiction_analysis.png}}
-\caption{Results for ratio Emotion/Sentiment with Number of tweets}
-  \label{fig:contradiction_barplot}
-\end{figure}
-
+We now turn our attention to the following interesting question: whether the subjective data that exist on the web carry useful information. Information can be thought of as data that reduce our uncertainty about some subject.This is an example with a sample of 383 623 424 tweets in English.
 
 \begin{table}[h!]
 
@@ -192,11 +206,23 @@ $Negative$ & 9 054 496 & 3 395 622 & 23 281 712 & 1 948 578 & 24 595 676 \\
 \label{tab:cross_tab}
 \end{table}
 
+According to this view, the diversity and pluralism of information on different topics can have a rather negative role. It is well understood, that true knowledge is being described by facts, rather than subjective opinions. However, this diversity in opinions, when analyzed, may deliver new information and contribute to the overall knowledge of a subject matter. This is especially true when the object of our study is the attitude of people. In this case, opinion native data can be useful to uncover the distribution of sentiments across time, or different groups of people. However, data mining differs from machine learning and statistics in that it deals with large volumes of data, stored primarily on disk. Some types of knowledge discovered from a database can be represented by a set of rules. The following is an example of a rule, stated informally: “Donald Trump and his totals of retweets incomes are greater than the average with the most sadly effects on users”. Of course, such riles are not universally true, and have degrees of “support” and “confidence”. Other types of knowledge are represented by equations relating different variables to each other, or by other mechanisms for predicting outcomes when the values of some variables are known. There are a variety of possible types of patterns that may be useful, and different techniques are used to find different types of patterns. Usually there is a manual component to data mining, consisting of preprocessing data to a form acceptable to the algorithms and post-processing of discovered patterns. For this reason, data mining is really a semiautomatic process in real life. The mode widely used applications are those that requires some sort of prediction. In our case, we want to predict emotions and sentiments, then a psychological profile. We outline what is classification, study techniques for building one type of classifiers, called decision-tree classifiers, and then study other predication techniques. Abstractly, the classification problem is this: Given that user in the archive, and given his tweet. We use a given instances of items along with the classes to which they belong, the problem is to predict the class. Since we associate several classes together, then we come to conflicting analyzes. 
+
+\begin{figure}[h!]
+{\includegraphics[width=\linewidth]{final_plot_contradiction_analysis.png}}
+\caption{Results for ratio Emotion/Sentiment with Number of tweets}
+  \label{fig:contradiction_barplot}
+\end{figure}
+
+First non-surprising results like Joy/Positive at 49.75 \% and Joy/Negative at 7.08 \%.
+We can see that we normally associate sadness with something negative, for example, but here we see that positive feelings are predominant, just as anger has a majority of positive feelings.
+
 
 \section{Conclusion and Future Work}
 \label{sec:conclusion}
 
-In this report we have presented a sentiment analysis tool on a Web interface, in one hand we used data from an archive end in the other we used real time stream analysis. Due to the absence of labelled data we couldn't argue on reliability of data.
+In this report we have presented a sentiment analysis tool on a Web interface, in one hand we used data from an archive end in the other we used real time stream analysis. Due to the absence of labelled data we couldn't argue on reliability of data. 
+There are also other features for the real stream such as geolocation of people, we could then generate a graph as a center to any user and know its impact on an interactive map, this would allow among other things to know the influence for example.
 
 % Start of "Sample References" section
 
@@ -205,7 +231,6 @@ In this report we have presented a sentiment analysis tool on a Web interface, i
 \begin{acks}
 We are grateful to the following people for resources, discussions and suggestions: Jason Scott (Archivist) and Diana Yuan (Co-Founder & Vice President, Talent & Operations from Indico).
 \end{acks}
-
 
 % Bibliography
 
