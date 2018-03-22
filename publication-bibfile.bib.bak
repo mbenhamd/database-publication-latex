@@ -344,12 +344,12 @@ booktitle = {2014 7th International Conference on Contemporary Computing, IC3 20
 }
 
 @Article{Alm05,
-author = {Cecilia Ovesdotter Alm and Dan Roth and Richard Sproat},
-year = {2005},
-month = {10},
-pages = {579-586},
-title = {Emotions from text machine learning for text-based emotion prediction},
-booktitle = {Proceedings of Human Language Technology Conference and Conference on Empirical Methods in Natural Language Processing},
+  author    = {Cecilia Ovesdotter Alm and Dan Roth and Richard Sproat},
+  title     = {Emotions from text : machine learning for text-based emotion prediction},
+  year      = {2005},
+  pages     = {579-586},
+  month     = {10},
+  booktitle = {Proceedings of Human Language Technology Conference and Conference on Empirical Methods in Natural Language Processing},
 }
  
 @Article{Badhani17,
@@ -370,7 +370,4 @@ publisher = {Foundation of Computer Science (FCS), NY, USA},
 address = {New York, USA},
 }
 
-
-
-
-
+@Comment{jabref-meta: databaseType:bibtex;}
