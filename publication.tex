@@ -56,6 +56,7 @@ Our purpose is to build a powerful platform for real-time data analysis of tweet
 \end{abstract}
 
 \section{Introduction}
+
 The main subject is Sentiment Analysis on Twitter, a microblogging platform where people can easily share their thought on anything and their habits too. We have a lot of publications on sentiment analysis but not so much research about impacts and their effect on society. The maximum characters are 140 which can be a good thing for the process of analysis because it will make it faster in a way to perform on small messages but in the other hand we should pay attention on accuracy of results. Even it’s an enormously continuous stream of data, Twitter is a good extra sentiment though an online community. Therefore, how to optimize all this streaming data and build a web interface for users who want to get data. We will use in our project will use many methodologies from Machine Learning like unsupervised methods to make a classification of sentiments, and supervised method to predicate psychological profile. Finally, one big step will be and efficient system about control of massive data incoming, a check on false account and spam messages that will destroy our results for example.
  
 \begin{quote}{Jeffrey Zeldman}
@@ -73,20 +74,22 @@ To begin, ye can refer to this article \cite{Palpanas11} because we can relate t
 \label{sec:cloud}
 
 Cloud computing was used for the project with Amazon Web Service (AWS) for helping developer making machine learning built systems quickly. 
-Amazon Elastic MapReduce is a cloud-based Hadoop solution that Amazon has been offering since 2009. It is hosted on Amazon EC2's scalable cloud infrastructure and leverages the Amazon S3 storage service. The main interest of such a service in cloud mode is its elasticity. There is no need to plan in advance the necessary processing and storage capacity, this can be increased on the fly and the pricing is based on the resources actually consumed.
+Amazon Elastic MapReduce is a cloud-based Hadoop solution that Amazon has been offering since 2009. It is hosted on Amazon EC2's scalable cloud infrastructure and leverages the Amazon S3 storage service. The main interest of such a service in cloud mode is its elasticity. There is no need to plan in advance the necessary processing and storage capacity, this can be increased on the fly and the pricing is based on the resources actually consumed. An exemple, with Brown clusters can really be uselly \citep{Marquez16} in cloud computing service du to this complexity of this hierarchical clustering of words based on the contexts.
 Some of the potential disadvantages to be aware of are the high latency times for I / O on S3, which is inevitably greater than on a Hadoop home installation. Some of the scripts (see repositories) were launched on desktop, the config used at was:
-i7 6700K @4.20Ghz
-16GO DDR4 @2400Mhz
-NVIDIA GTX 1060
-128Go SSD / 3TO HDD
-Debian 9.4 (Stretch) kernel version: 4.9.0-6-amd64
+\begin{itemize}
+\item  i7 6700K @4.20Ghz
+\item  16GO DDR4 @2400Mhz
+\item  NVIDIA GTX 1060
+\item  128Go SSD / 3TO HDD
+\item  Debian 9.4 (Stretch) kernel version: 4.9.0-6-amd64
+\end{itemize}
 
 For the read operations, the SSD was used to load the JSON files by hundreds or thousands, later calculations, the recording will be done on the HDD.
 
 \subsection{MapReduce Model and Spark Framework}
 \label{subsub:mapreduce_spark}
 
-In 2015, Spark was used in more than one thousand Airbus companies at Toyota, Netflix or EBay. Spark is a distributed computing framework. MapReduce greatly simplified Big Data analysis on large clusters of machines that could fail. But MapReduce has become a victim of its success users are always asking more with applications, such as iterative operations (ML for example) or interactive operations (several requests is not suitable) for these types of operations. The only way for MapReduce (for example, two steps of the same algorithm) is through stable storage, physically writing to HDFS for example. But writing on a large volume of data data on HDFS is already taking a long time since it is necessary to replicate this data to be able to cope with any failures and to reload several times the same data from HDFS in the following jobs will be very slow. An algorithm that repeats the same operation in a loop will therefore quickly have a prohibitive calculation cost in MapReduce. Some Hadoop MapReduce applications thus pass the priority of their execution times on read and write operations.
+In 2015, Spark was used in more than one thousand Airbus companies at Toyota, Netflix or EBay. Spark is a distributed computing framework. MapReduce \cite{Baltas17} as they explain undertheir Cloud computing section, greatly simplified Big Data analysis on large clusters of machines that could fail. But MapReduce has become a victim of its success users are always asking more with applications, such as iterative operations (ML for example) or interactive operations (several requests is not suitable) for these types of operations. The only way for MapReduce (for example, two steps of the same algorithm) is through stable storage, physically writing to HDFS for example. But writing on a large volume of data data on HDFS is already taking a long time since it is necessary to replicate this data to be able to cope with any failures and to reload several times the same data from HDFS in the following jobs will be very slow. An algorithm that repeats the same operation in a loop will therefore quickly have a prohibitive calculation cost in MapReduce. Some Hadoop MapReduce applications thus pass the priority of their execution times on read and write operations.
 
 
 
@@ -107,12 +110,12 @@ Machine learning approach relies on statistical algorithms in one hand to solve 
 \subsection{Pre-processing}
 \label{subsub:preprocessing}
 
-In this paper we introduce two new resources for pre-processing twitter data \cite{Jianqiang17}, we used some of their ideas like removing URL, as you can see in the repository, an emoticon dictionary is available in Python and we can remove them from any tweets. It is powerful because even it is relevant, we can’t take them for computing them after due to a problem of time. Positive, Negative, and Neutral are the three labels for Sentiment Analysis and Joy, Fear, Anger, Surprise and Sadness are the fifth labels for Emotion Analysis. We pre-process all the tweets as follows:
+In this paper we introduce two new resources for pre-processing twitter data \cite{Jianqiang17}, we used some of their ideas like removing URL, as you can see in the repository, an emoticon dictionary is available in Python and we can remove them from any tweets.Unsure and irrelevant label was not used for this classfication \citep{Poddar16} because we think that it is more relevant to detect bots and not adding them into the analyse process rather than put a tag on them and lose time of computation for sentiment analysis. It is powerful because even it is relevant, we can’t take them for computing them after due to a problem of time. Positive, Negative, and Neutral are the three labels for Sentiment Analysis and Joy, Fear, Anger, Surprise and Sadness are the fifth labels for Emotion Analysis. We pre-process all the tweets as follows:
 1) We remove all the emoticons
 2) We remove all URLs with a regular expression 
 3) Replace targets (e.g. “@John”) by also removing them
 4) Removing “RT” for most of the tweet, because it doesn’t mean something for the application. 
-Tweets in a general way contain a lot of opinions but they are expressed in different ways by users, as they did \cite{Rebecca11} by keeping emoticons. It deals with the preparation that removes the repeated words and punctuations and improves the efficiency the data. Forward other process is doing like converting upper case to lower case. User names and URLs are not important from the perspective of future processing; hence their presence is futile. All usernames and URLs are removed to improve increase the real result.
+Tweets in a general way contain a lot of opinions but they are expressed in different ways by users, as they did \cite{Rebecca11} by keeping emoticons. It deals with the preparation that removes the repeated words and punctuations and improves the efficiency the data. Forward other process is doing like converting upper case to lower case. User names and URLs are not important from the perspective of future processing; hence their presence is futile. All usernames and URLs are removed to improve increase the real result. 
 
 
 
@@ -124,7 +127,7 @@ To determine the feeling of the tweet, we used the TextBlod librairy which provi
 To determine the emotion, we had to create our own classification model (classification in English what) with scikit-learn.
 To do this we took a tweet dataset that we labalised (after having data cleaned as indicated in the previous paragraph) thanks to indico.
 We then transform this dataset into a term document matrix and apply a TF-IDF standardization to evaluate the importance of the term content in each tweet.
-Finally we applied a SVM for the classification.
+Finally we applied a SVM for the classification because like they said \cite{Medhat14}, it is very suitable for text data.
 Once the model was extracted, we used it with spark to predict the emotion of all the tweets.
 
 \subsection{Feature Generation}
@@ -150,7 +153,7 @@ Two types of operations (In technical terms, Spark calculates a direct acyclic g
 \section{Implementation}
 \label{sec:implementation}
 
-We have used the following technologies for many reasons. Hadoop assumes that conventional approaches (consisting of developing ever more powerful centralized systems) have technical and financial limitations. The development of distributed systems consisting of machines or nodes, relatively affordable (commodity hardware) and scaling out is an alternative from a technical and financial point of view because a distributed system comprising tens, hundreds or thousands of nodes will regularly be confronted with hardware and/or software failures. Google has developed the Google File System (GFS), ancestor of the Hadoop Disrelated File System (HDFS) and The MapReduce Approach. A Hadoop program usually implements both map tasks and reduce tasks. Hadoop is particularly effective for dealing with problems that have one or more of the following characteristics: Volume of data to store or process very important. Need to perform processing on all data (batch rather than transactional, therefore). Heterogeneous data in terms of origin, structure, and format (JSON for example, Tweets collected via any Tweeter API are send in JSON because of the flexibility of this type of object. Several examples are in the repository for interested readers). Execute the tasks of a Hadoop job in parallel, without a pre-established order. A Hadoop cluster is made up of tens, hundreds, or thousands of nodes. It is the addition of the storage and processing capacities of each of these nodes which makes it possible to offer a storage space and a computing power yet to handle data volumes of several To or Po. To improve the performance of a read / write cluster, Hadoop’s file management system, HDFS, writes and reads files in blocks of 64 MB or 128 MB. Working on such large blocks maximizes data transfer rates by limiting search time on hard drives (seek time). MapReduce is a programming model designed specifically to read, process and write very large volumes of data. A Hadoop program usually implements both map tasks and reduce tasks those programs are usually divided into three parts: The driver, which runs on a client machine, is responsible for configuring the job and submitting it for execution. The map is responsible for reading and processing data stored on disk. The reducer is responsible for consolidating the results from the map and write them on disk. Naturally, the implementation core use Hadoop for these reasons.
+We have used the following technologies for many reasons. Hadoop assumes that conventional approaches (consisting of developing ever more powerful centralized systems) have technical and financial limitations. The development of distributed systems consisting of machines or nodes, relatively affordable (commodity hardware) and scaling out is an alternative from a technical and financial point of view because a distributed system comprising tens, hundreds or thousands of nodes will regularly be confronted with hardware and/or software failures. Google has developed the Google File System (GFS), ancestor of the Hadoop Disrelated File System (HDFS) \citep{Baltas17} and The MapReduce Approach. A Hadoop program usually implements both map tasks and reduce tasks. Hadoop is particularly effective for dealing with problems that have one or more of the following characteristics: Volume of data to store or process very important. Need to perform processing on all data (batch rather than transactional, therefore). Heterogeneous data in terms of origin, structure, and format (JSON for example, Tweets collected via any Tweeter API are send in JSON because of the flexibility of this type of object. Several examples are in the repository for interested readers). Execute the tasks of a Hadoop job in parallel, without a pre-established order. A Hadoop cluster is made up of tens, hundreds, or thousands of nodes. It is the addition of the storage and processing capacities of each of these nodes which makes it possible to offer a storage space and a computing power yet to handle data volumes of several To or Po. To improve the performance of a read / write cluster, Hadoop’s file management system, HDFS, writes and reads files in blocks of 64 MB or 128 MB. Working on such large blocks maximizes data transfer rates by limiting search time on hard drives (seek time). MapReduce is a programming model designed specifically to read, process and write very large volumes of data. A Hadoop program usually implements both map tasks and reduce tasks those programs are usually divided into three parts: The driver, which runs on a client machine, is responsible for configuring the job and submitting it for execution. The map is responsible for reading and processing data stored on disk. The reducer is responsible for consolidating the results from the map and write them on disk. Naturally, the implementation core use Hadoop for these reasons.
 
 \section{Results}
 \label{sub:results}
@@ -186,7 +189,7 @@ The problem of sentiment analysis from archive tweets is that there are not so m
 \subsection{Impacts of tweets}
 \label{subsub:impacts_tweets}
 
-In this section, we wanted to talk about the effect of tweets on the community, taking the utmost retweeting the tweet of Donals Trump. We have 414 716 retweet which allows to have a number of acceptable messages to use the word "impacts". It is interesting in the field of politics but also in the media world to have an analysis of what is said and done in the world today.
+In this section, we wanted to talk about the effect of tweets on the community, taking the utmost retweeting the tweet of Donals Trump. We have 414 716 retweet which allows to have a number of acceptable messages to use the word "impacts". In this publication, \cite{Vyas17}, we found interisting their fought on what they call "influence" and tools used about that. It is interesting in the field of politics but also in the media world to have an analysis of what is said and done in the world today.
 
 
 \begin{figure}[h!]
@@ -222,13 +225,13 @@ According to this view, the diversity and pluralism of information on different 
 \end{figure}
 
 First non-surprising results like Joy/Positive at 49.75 \% and Joy/Negative at 7.08 \%.
-We can see that we normally associate sadness with something negative, for example, but here we see that positive feelings are predominant, just as anger has a majority of positive feelings.
+We can see that we normally associate sadness with something negative, for example, but here we see that positive feelings are predominant, just as anger has a majority of positive feelings. One publication can also be referred \cite{Alm05}  because accordly to this addition between emotion and sentiment, they also have other results.
 
 
 \section{Conclusion and Future Work}
 \label{sec:conclusion}
 
-In this report we have presented a sentiment analysis tool on a Web interface, in one hand we used data from an archive end in the other we used real time stream analysis. Due to the absence of labelled data we couldn't argue on reliability of data. 
+In this report we have presented a sentiment analysis tool on a Web interface, in one hand we used data from an archive end in the other we used real time stream analysis. Due to the absence of labelled data we couldn't argue on reliability of data.  This recent publication really question us about the limit on software engineering \cite{Lin18}, but they did not explored deep learning \cite{Meisheri17} and what we could achieve with this learning techniques using neural network fully connected that we always only get better with time because of optimized function behind and great computation that we have nowaydays due to GPU. 
 There are also other features for the real stream such as geolocation of people, we could then generate a graph as a center to any user and know its impact on an interactive map, this would allow among other things to know the influence for example.
 
 % Start of "Sample References" section
