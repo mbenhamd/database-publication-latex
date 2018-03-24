@@ -7,10 +7,14 @@
 \BOOKMARK [2][-]{subsection.11}{Machine learning for Emotion and Sentiment classification}{section.6}% 7
 \BOOKMARK [2][-]{subsection.12}{Feature Generation}{section.6}% 8
 \BOOKMARK [1][-]{section.13}{Implementation}{}% 9
-\BOOKMARK [1][-]{section.14}{Results}{}% 10
-\BOOKMARK [2][-]{subsection.15}{English tweets monthly analyzed}{section.14}% 11
-\BOOKMARK [2][-]{subsection.17}{Psychological profile for any users}{section.14}% 12
-\BOOKMARK [2][-]{subsection.19}{Impacts of tweets}{section.14}% 13
-\BOOKMARK [1][-]{section.21}{Discussion}{}% 14
-\BOOKMARK [1][-]{section.24}{Conclusion and Future Work}{}% 15
-\BOOKMARK [1][-]{section.26}{References}{}% 16
+\BOOKMARK [1][-]{section.14}{Web application}{}% 10
+\BOOKMARK [2][-]{subsection.15}{Conception of the DataBase \(Web Site\)}{section.14}% 11
+\BOOKMARK [2][-]{subsection.18}{Conception of the Archive Access}{section.14}% 12
+\BOOKMARK [2][-]{subsection.20}{Conception of the Real Stream}{section.14}% 13
+\BOOKMARK [1][-]{section.23}{Results}{}% 14
+\BOOKMARK [2][-]{subsection.24}{English tweets monthly analyzed}{section.23}% 15
+\BOOKMARK [2][-]{subsection.26}{Psychological profile for any users}{section.23}% 16
+\BOOKMARK [2][-]{subsection.28}{Impacts of tweets}{section.23}% 17
+\BOOKMARK [1][-]{section.30}{Discussion}{}% 18
+\BOOKMARK [1][-]{section.33}{Conclusion and Future Work}{}% 19
+\BOOKMARK [1][-]{section.35}{References}{}% 20

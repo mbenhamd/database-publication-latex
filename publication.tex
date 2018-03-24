@@ -77,7 +77,7 @@ To begin, ye can refer to this article \cite{Palpanas11} because we can relate t
 \label{sec:cloud}
 
 Cloud computing was used for the project with Amazon Web Service (AWS) for helping developer making machine learning built systems quickly. 
-Amazon Elastic MapReduce is a cloud-based Hadoop solution that Amazon has been offering since 2009. It is hosted on Amazon EC2's scalable cloud infrastructure and leverages the Amazon S3 storage service. The main interest of such a service in cloud mode is its elasticity. There is no need to plan in advance the necessary processing and storage capacity, this can be increased on the fly and the pricing is based on the resources actually consumed. An exemple, with Brown clusters can really be uselly \citep{Marquez16} in cloud computing service du to this complexity of this hierarchical clustering of words based on the contexts.
+Amazon Elastic MapReduce is a cloud-based Hadoop solution that Amazon has been offering since 2009. It is hosted on Amazon EC2's scalable cloud infrastructure and leverages the Amazon S3 storage service. The main interest of such a service in cloud mode is its elasticity. There is no need to plan in advance the necessary processing and storage capacity, this can be increased on the fly and the pricing is based on the resources actually consumed. An exemple, with Brown clusters can really be uselly \cite{Marquez16} in cloud computing service du to this complexity of this hierarchical clustering of words based on the contexts.
 Some of the potential disadvantages to be aware of are the high latency times for I / O on S3, which is inevitably greater than on a Hadoop home installation. Some of the scripts (see repositories) were launched on desktop, the config used at was:
 \begin{itemize}
 \item  i7 6700K @4.20Ghz
@@ -113,7 +113,7 @@ Machine learning approach relies on statistical algorithms in one hand to solve 
 \subsection{Pre-processing}
 \label{subsub:preprocessing}
 
-In this paper we introduce two new resources for pre-processing twitter data \cite{Jianqiang17}, we used some of their ideas like removing URL, as you can see in the repository, an emoticon dictionary is available in Python and we can remove them from any tweets.Unsure and irrelevant label was not used for this classfication \citep{Poddar16} because we think that it is more relevant to detect bots and not adding them into the analyse process rather than put a tag on them and lose time of computation for sentiment analysis. It is powerful because even it is relevant, we can’t take them for computing them after due to a problem of time. Positive, Negative, and Neutral are the three labels for Sentiment Analysis and Joy, Fear, Anger, Surprise and Sadness are the fifth labels for Emotion Analysis. We pre-process all the tweets as follows:
+In this paper we introduce two new resources for pre-processing twitter data \cite{Jianqiang17}, we used some of their ideas like removing URL, as you can see in the repository, an emoticon dictionary is available in Python and we can remove them from any tweets.Unsure and irrelevant label was not used for this classfication \cite{Poddar16} because we think that it is more relevant to detect bots and not adding them into the analyse process rather than put a tag on them and lose time of computation for sentiment analysis. It is powerful because even it is relevant, we can’t take them for computing them after due to a problem of time. Positive, Negative, and Neutral are the three labels for Sentiment Analysis and Joy, Fear, Anger, Surprise and Sadness are the fifth labels for Emotion Analysis. We pre-process all the tweets as follows:
 1) We remove all the emoticons
 2) We remove all URLs with a regular expression 
 3) Replace targets (e.g. “@John”) by also removing them
@@ -156,20 +156,68 @@ Two types of operations (In technical terms, Spark calculates a direct acyclic g
 \section{Implementation}
 \label{sec:implementation}
 
-We have used the following technologies for many reasons. Hadoop assumes that conventional approaches (consisting of developing ever more powerful centralized systems) have technical and financial limitations. The development of distributed systems consisting of machines or nodes, relatively affordable (commodity hardware) and scaling out is an alternative from a technical and financial point of view because a distributed system comprising tens, hundreds or thousands of nodes will regularly be confronted with hardware and/or software failures. Google has developed the Google File System (GFS), ancestor of the Hadoop Disrelated File System (HDFS) \citep{Baltas17} and The MapReduce Approach. A Hadoop program usually implements both map tasks and reduce tasks. Hadoop is particularly effective for dealing with problems that have one or more of the following characteristics: Volume of data to store or process very important. Need to perform processing on all data (batch rather than transactional, therefore). Heterogeneous data in terms of origin, structure, and format (JSON for example, Tweets collected via any Tweeter API are send in JSON because of the flexibility of this type of object. Several examples are in the repository for interested readers). Execute the tasks of a Hadoop job in parallel, without a pre-established order. A Hadoop cluster is made up of tens, hundreds, or thousands of nodes. It is the addition of the storage and processing capacities of each of these nodes which makes it possible to offer a storage space and a computing power yet to handle data volumes of several To or Po. To improve the performance of a read / write cluster, Hadoop’s file management system, HDFS, writes and reads files in blocks of 64 MB or 128 MB. Working on such large blocks maximizes data transfer rates by limiting search time on hard drives (seek time). MapReduce is a programming model designed specifically to read, process and write very large volumes of data. A Hadoop program usually implements both map tasks and reduce tasks those programs are usually divided into three parts: The driver, which runs on a client machine, is responsible for configuring the job and submitting it for execution. The map is responsible for reading and processing data stored on disk. The reducer is responsible for consolidating the results from the map and write them on disk. Naturally, the implementation core use Hadoop for these reasons.
+We have used the following technologies for many reasons. Hadoop assumes that conventional approaches (consisting of developing ever more powerful centralized systems) have technical and financial limitations. The development of distributed systems consisting of machines or nodes, relatively affordable (commodity hardware) and scaling out is an alternative from a technical and financial point of view because a distributed system comprising tens, hundreds or thousands of nodes will regularly be confronted with hardware and/or software failures. Google has developed the Google File System (GFS), ancestor of the Hadoop Disrelated File System (HDFS) \cite{Baltas17} and The MapReduce Approach. A Hadoop program usually implements both map tasks and reduce tasks. Hadoop is particularly effective for dealing with problems that have one or more of the following characteristics: Volume of data to store or process very important. Need to perform processing on all data (batch rather than transactional, therefore). Heterogeneous data in terms of origin, structure, and format (JSON for example, Tweets collected via any Tweeter API are send in JSON because of the flexibility of this type of object. Several examples are in the repository for interested readers). Execute the tasks of a Hadoop job in parallel, without a pre-established order. A Hadoop cluster is made up of tens, hundreds, or thousands of nodes. It is the addition of the storage and processing capacities of each of these nodes which makes it possible to offer a storage space and a computing power yet to handle data volumes of several To or Po. To improve the performance of a read / write cluster, Hadoop’s file management system, HDFS, writes and reads files in blocks of 64 MB or 128 MB. Working on such large blocks maximizes data transfer rates by limiting search time on hard drives (seek time). MapReduce is a programming model designed specifically to read, process and write very large volumes of data. A Hadoop program usually implements both map tasks and reduce tasks those programs are usually divided into three parts: The driver, which runs on a client machine, is responsible for configuring the job and submitting it for execution. The map is responsible for reading and processing data stored on disk. The reducer is responsible for consolidating the results from the map and write them on disk. Naturally, the implementation core use Hadoop for these reasons.
 
 \section{Web application}
 \label{sec:web_application}
 
-\subsection{Conception}
-\label{subsub:conception}
 
-\begin{figure}[h!]
+\subsection{Conception of the DataBase (Web Site)}
+\label{subsub:conception_db}
+
+In order to allow quick access to the data on the website at any time, we had to make a lot of pre-payment.
+Finally, by budget limitation, we can not offer a database with a very strong capacity of cpu or datawharehouse we can manage peta byte data. The postgresSQL database is based on a micro instance of 1 CPU and 2 GB of ram.
+With this configuration, it is clearly impossible to perform complicated SQL queries such as group by, cost, and other aggregation on 350 million lines.
+For this reason, we decided to optimize our database and create a table corresponding to a data item that we want to display. The query is thus done only on indexes, the response time is then very fast (100ms maximum) regardless of the size of the table.
+To do this, we had to proceed by step:
+1st step:
+The first step was to define exactly the data we wanted to display: We selected temporal data (Psychological evolution during the year, for each month, according to the time), as well as trends, better users and best retweets monthly / yearly. We also chose to be able to display the psychological profile for each user (Global psychological evaluation, number of tweet / retweet and evolution over the year).
+2nd step:
+We coded Spark scripts for each problem to calculate what we wanted to display. All calculation scripts are here\footnote{\url{https://github.com/yannistannier/twitter-sentiment-analysis/tree/master/compute}}. 
+3rd step:
+Each Spark script returned us an aggregated file as we wanted, we just had to import these files into the corresponding tables taking care to organize our indexes.
+For example: to retrieve the psychological evolution of a user, we just have to make a simple SQL query on the table {\itshape user\_stat} with a selection on index (where id = 1656561) and the query we reference in 100ms 12 rows corresponding to each month. The same request with several accreditation operators on the initial table took several minutes to answer us.
+
+
+
+\begin{figure}[!h]
+{\includegraphics[width=\linewidth]{table-web-db.png}}
+\caption{Schema of the DataBase.}
+  \label{fig:archive}
+\end{figure}
+
+
+\subsection{Conception of the Archive Access}
+\label{subsub:conception_aa}
+
+Once the database was created, we wanted the render very easily accessible to the public and we have developed a web platform.
+The platform presents a very classic web architecture. Our database Postgres with aggreger data is hosted by AWS RDS.
+We have developed Api RestFul through AWS Lambda and AWS GateWey that are responsible for executing sql requests and returning formatting data.
+And finally our web client react.js whose sole role is to call the Api Restfull and display the data visualization.
+
+
+\begin{figure}[!h]
 {\includegraphics[width=\linewidth]{archive-schema.png}}
 \caption{Schema for the Archive Web Application.}
   \label{fig:archive}
 \end{figure}
 
+\subsection{Conception of the Real Stream}
+\label{subsub:conception_rs}
+
+For the real-time part, we chose to use kinesis Data Streams, which is the real-time data analysis service of AWS.
+For this we have created a Twitter streamer that is responsible for recovering real-time data via the API Stream of twitter. This data is sent to Kinesis Data Streams which allows you to aggregate data from multiple sources.
+These data are thus sent to a consumer who is responsible for analyzing and predicting the emotion and feeling in real time through textblod and our model of emotion prediction.
+Once the data is analyzed, our Consumer formats them and sends the result to our web client thanks to MQTT.
+Real streams scripts can be found here\footnote{\url{https://github.com/yannistannier/twitter-sentiment-analysis/tree/master/kinesis-realtime}}.
+The streamTwitter.py file is our Twitter streamer and the kinesisStream.py file is our Consumer.
+
+
+\begin{figure}[!h]
+{\includegraphics[width=\linewidth]{real_stream-schema.png}}
+\caption{Schema for the Real Stream Web Application.}
+  \label{fig:archive}
+\end{figure}
 
 
 \section{Results}
