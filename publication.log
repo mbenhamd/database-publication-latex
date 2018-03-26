@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.2.15)  24 MAR 2018 15:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.2.15)  24 MAR 2018 23:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -207,13 +207,14 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 4.
 
-(./publication.aux
-
-LaTeX Warning: Label `fig:archive' multiply defined.
-
-
-LaTeX Warning: Label `fig:archive' multiply defined.
-
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count103
+\float@exts=\toks15
+\float@box=\box33
+\@float@everytoks=\toks16
+\@floatcapt=\box34
+) (./publication.aux
 
 LaTeX Warning: Label `fig:trump_results' multiply defined.
 
@@ -248,17 +249,17 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count103
+\scratchcounter=\count104
 \scratchdimen=\dimen119
-\scratchbox=\box33
-\nofMPsegments=\count104
-\nofMParguments=\count105
-\everyMPshowfont=\toks15
-\MPscratchCnt=\count106
+\scratchbox=\box35
+\nofMPsegments=\count105
+\nofMParguments=\count106
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count107
 \MPscratchDim=\dimen120
-\MPnumerator=\count107
-\makeMPintoPDFobject=\count108
-\everyMPtoPDFconversion=\toks16
+\MPnumerator=\count108
+\makeMPintoPDFobject=\count109
+\everyMPtoPDFconversion=\toks18
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -276,7 +277,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box34
+\AtBeginShipoutBox=\box36
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
@@ -294,7 +295,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count109
+\c@section@level=\count110
 )
 LaTeX Info: Redefining \ref on input line 29.
 LaTeX Info: Redefining \pageref on input line 29.
@@ -385,11 +386,9 @@ Missing character: There is no ô in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
-
-LaTeX Warning: Citation `Marquez16' on page 1 undefined on input line 80.
-
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 Non-PDF special ignored!
 
@@ -413,85 +412,86 @@ $[]$[][][][]$\OT1/ptm/m/n/8 https : / / github . com / yannistannier / twitter-
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
-<first_ten_languages.png, id=114, 653.44125pt x 423.83344pt>
+<first_ten_languages.png, id=118, 653.44125pt x 423.83344pt>
 File: first_ten_languages.png Graphic file (type png)
 
 <use first_ten_languages.png>
 Package pdftex.def Info: first_ten_languages.png used on input line 107.
 (pdftex.def)             Requested size: 240.0pt x 155.66475pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Citation `Poddar16' on page 2 undefined on input line 116.
-
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 122.
+(Font)              <7> on input line 111.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 122.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 111.
 
 Overfull \vbox (0.633pt too high) has occurred while \output is active []
 
- [2 <./first_ten_languages.png (PNG copy)>]
+ [2]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 
+Overfull \vbox (0.633pt too high) has occurred while \output is active []
+
+ [3 <./first_ten_languages.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 176--176
 $[]$[][][][]$\OT1/ptm/m/n/8 https : / / github . com / yannistannier / twitter-
 []sentiment-[]analysis / tree / master /
  []
 
-
-Overfull \vbox (0.633pt too high) has occurred while \output is active []
-
- [3]
-<table-web-db.png, id=140, 1459.4525pt x 890.32625pt>
+<table-web-db.png, id=152, 1459.4525pt x 890.32625pt>
 File: table-web-db.png Graphic file (type png)
  <use table-web-db.png>
 Package pdftex.def Info: table-web-db.png used on input line 184.
 (pdftex.def)             Requested size: 240.0pt x 146.40842pt.
 
-<archive-schema.png, id=141, 1798.72pt x 1066.98625pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+<archive-schema.png, id=153, 1798.72pt x 1066.98625pt>
 File: archive-schema.png Graphic file (type png)
 
 <use archive-schema.png>
 Package pdftex.def Info: archive-schema.png used on input line 200.
 (pdftex.def)             Requested size: 240.0pt x 142.36pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 212--212
 $[]$[][][][]$\OT1/ptm/m/n/8 https : / / github . com / yannistannier / twitter-
 []sentiment-[]analysis / tree / master /
  []
 
-<real_stream-schema.png, id=144, 1309.89375pt x 481.8pt>
+
+Overfull \vbox (0.633pt too high) has occurred while \output is active []
+
+ [4 <./table-web-db.png> <./archive-schema.png>]
+<real_stream-schema.png, id=168, 1309.89375pt x 481.8pt>
 File: real_stream-schema.png Graphic file (type png)
 
 <use real_stream-schema.png>
 Package pdftex.def Info: real_stream-schema.png used on input line 217.
 (pdftex.def)             Requested size: 240.0pt x 88.27145pt.
 
-<monthly_analysis_joy_sadness-exemple.png, id=146, 673.51625pt x 352.31625pt>
+<monthly_analysis_joy_sadness-exemple.png, id=170, 673.51625pt x 352.31625pt>
 File: monthly_analysis_joy_sadness-exemple.png Graphic file (type png)
 
 <use monthly_analysis_joy_sadness-exemple.png>
@@ -499,10 +499,7 @@ Package pdftex.def Info: monthly_analysis_joy_sadness-exemple.png used on input
  line 233.
 (pdftex.def)             Requested size: 240.0pt x 125.54353pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Trump-results-analysis_exemple.png, id=147, 821.469pt x 431.211pt>
+<Trump-results-analysis_exemple.png, id=172, 821.469pt x 431.211pt>
 File: Trump-results-analysis_exemple.png Graphic file (type png)
 
 <use Trump-results-analysis_exemple.png>
@@ -510,42 +507,38 @@ Package pdftex.def Info: Trump-results-analysis_exemple.png used on input line
 248.
 (pdftex.def)             Requested size: 240.0pt x 125.9823pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \vbox (0.633pt too high) has occurred while \output is active []
-
- [4 <./table-web-db.png> <./archive-schema.png> <./real_stream-schema.png>]
-<retweeted_emotion_sentiment_trump-exemple.png, id=163, 666.49pt x 685.56125pt>
+<retweeted_emotion_sentiment_trump-exemple.png, id=174, 666.49pt x 685.56125pt>
 File: retweeted_emotion_sentiment_trump-exemple.png Graphic file (type png)
 <use retweeted_emotion_sentiment_trump-exemple.png>
 Package pdftex.def Info: retweeted_emotion_sentiment_trump-exemple.png used on 
 input line 261.
 (pdftex.def)             Requested size: 240.0pt x 246.86462pt.
 
+Overfull \vbox (0.633pt too high) has occurred while \output is active []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+ [5 <./real_stream-schema.png> <./monthly_analysis_joy_sadness-exemple.png> <./
+Trump-results-analysis_exemple.png> <./retweeted_emotion_sentiment_trump-exempl
+e.png>]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
 
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-<final_plot_contradiction_analysis.png, id=164, 652.68843pt x 423.83344pt>
+<final_plot_contradiction_analysis.png, id=194, 652.68843pt x 423.83344pt>
 File: final_plot_contradiction_analysis.png Graphic file (type png)
 
 <use final_plot_contradiction_analysis.png>
@@ -574,14 +567,6 @@ You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (0.633pt too high) has occurred while \output is active []
-
- [5 <./monthly_analysis_joy_sadness-exemple.png> <./Trump-results-analysis_exem
-ple.png> <./retweeted_emotion_sentiment_trump-exemple.png>]
 ! Misplaced alignment tab character &.
 l.307 ... (Archivist) and Diana Yuan (Co-Founder &
                                                    Vice President, Talent & ...
@@ -617,70 +602,103 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--59
 \OT1/ptm/m/n/8 Sen-ti-ment Anal-y-sis on Twit-ter Data.  (Aug. 2017), 15--25.
  []
 
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ° in font ptmr7t!
 
-Underfull \hbox (badness 2142) in paragraph at lines 100--110
+Underfull \hbox (badness 5374) in paragraph at lines 87--96
+[]\OT1/ptm/m/n/8 Oscar Araque, Ig-na-cio Corcuera-Platas, J. Fer-nando Snchez-R
+ada,
+ []
+
+
+Underfull \hbox (badness 4096) in paragraph at lines 87--96
+\OT1/ptm/m/n/8 and Car-los A. Igle-sias. 2017.  En-hanc-ing deep learn-ing sen-
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--96
+\OT1/ptm/m/n/8 ti-ment anal-y-sis with en-sem-ble tech-niques in so-cial ap-pli
+-ca-
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 87--96
+\OT1/ptm/m/n/8 tions.  \OT1/ptm/m/it/8 Ex-pert Sys-tems with Ap-pli-ca-tions \O
+T1/ptm/m/n/8 77 (2017), 236 -- 246.
+ []
+
+
+Overfull \vbox (0.633pt too high) has occurred while \output is active []
+
+ [6 <./final_plot_contradiction_analysis.png (PNG copy)>]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ì in font ptmr7t!
+
+Underfull \hbox (badness 2142) in paragraph at lines 136--146
 []\OT1/ptm/m/n/8 Bhumika Gupta, Monika Negi, Kanika Vish-wakarma, Goldi Rawat,
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 100--110
+Underfull \hbox (badness 1490) in paragraph at lines 136--146
 \OT1/ptm/m/n/8 and Priyanka Bad-hani. 2017.  Study of Twit-ter Sen-ti-ment Anal
 -
  []
 
 
-Underfull \hbox (badness 3386) in paragraph at lines 100--110
+Underfull \hbox (badness 3386) in paragraph at lines 136--146
 \OT1/ptm/m/n/8 y-sis us-ing Ma-chine Learn-ing Al-go-rithms on Python.  \OT1/pt
 m/m/it/8 In-ter-na-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--137
+Underfull \hbox (badness 10000) in paragraph at lines 175--182
 []\OT1/ptm/m/n/8 Nazan []Ozt[]urka and Serkan Ay-vazb. 2017.  Sen-ti-ment anal-
 y-
  []
 
 
-Underfull \hbox (badness 3838) in paragraph at lines 130--137
+Underfull \hbox (badness 3838) in paragraph at lines 175--182
 \OT1/ptm/m/n/8 sis on Twit-ter: A text min-ing ap-proach to the Syr-ian refugee
 
  []
 
 
-Underfull \hbox (badness 5161) in paragraph at lines 130--137
+Underfull \hbox (badness 5161) in paragraph at lines 175--182
 \OT1/ptm/m/n/8 cri-sis.  \OT1/ptm/m/it/8 Telem-at-ics and In-for-mat-ics \OT1/p
 tm/m/n/8 35 (Oct. 2017), 136--147.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--172
+Underfull \hbox (badness 10000) in paragraph at lines 230--238
 []\OT1/ptm/m/n/8 Walaa Med-hat and Ahmed Has-san and Hoda Ko-rashy. 2014.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--172
+Underfull \hbox (badness 10000) in paragraph at lines 230--238
 \OT1/ptm/m/n/8 Sen-ti-ment anal-y-sis al-go-rithms and ap-pli-ca-tions: A sur-v
 ey.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--172
+Underfull \hbox (badness 10000) in paragraph at lines 230--238
 \OT1/ptm/m/it/8 Ain Shams En-gi-neer-ing Jour-nal \OT1/ptm/m/n/8 5, 4 (2014), 1
 093--1113.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--184
+Underfull \hbox (badness 10000) in paragraph at lines 255--262
 []\OT1/ptm/m/n/8 Zhao Jian-qiang and Gui Xi-aolin. 2017.  Com-par-i-son Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--184
+Underfull \hbox (badness 10000) in paragraph at lines 255--262
 \OT1/ptm/m/n/8 search on Text Pre-processing Meth-ods on Twit-ter Sen-ti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--184
+Underfull \hbox (badness 10000) in paragraph at lines 255--262
 \OT1/ptm/m/n/8 ment Anal-y-sis.  \OT1/ptm/m/it/8 IEEE Ac-cess \OT1/ptm/m/n/8 5 
 (Feb. 2017), 2870--2879.
  []
@@ -690,13 +708,16 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 315.
 
 Overfull \vbox (0.633pt too high) has occurred while \output is active []
 
- [6 <./final_plot_contradiction_analysis.png (PNG copy)>]
+ [7
+
+]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 315.
- (./publication.aux)
+
+(./publication.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 315.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 315.
 Package rerunfilecheck Info: File `publication.out' has not changed.
-(rerunfilecheck)             Checksum: 30FB5C901FE82906F5A7AAF587D3C3B8;1291.
+(rerunfilecheck)             Checksum: C9F55A83689F3C28BBD0E6759791B9A9;1291.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -704,13 +725,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 315.
  ) 
 Here is how much of TeX's memory you used:
- 5777 strings out of 494902
- 84690 string characters out of 6179891
- 179752 words of memory out of 5000000
- 8942 multiletter control sequences out of 15000+600000
- 37960 words of font info for 93 fonts, out of 8000000 for 9000
+ 5858 strings out of 494902
+ 85691 string characters out of 6179891
+ 180917 words of memory out of 5000000
+ 9003 multiletter control sequences out of 15000+600000
+ 36334 words of font info for 91 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 34i,9n,28p,2491b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,9n,28p,2491b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fo
@@ -720,10 +741,10 @@ ic/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
 c/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on publication.pdf (6 pages, 478893 bytes).
+Output written on publication.pdf (7 pages, 482298 bytes).
 PDF statistics:
- 253 PDF objects out of 1000 (max. 8388607)
- 222 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
+ 292 PDF objects out of 1000 (max. 8388607)
+ 260 compressed objects within 3 object streams
+ 73 named destinations out of 1000 (max. 500000)
  201 words of extra memory for PDF output out of 10000 (max. 10000000)
 

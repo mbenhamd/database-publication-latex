@@ -81,6 +81,20 @@
 \url{http://dl.acm.org/citation.cfm?id=2021109.2021114}}
 
 
+\bibitem[\protect\citeauthoryear{Araque, Corcuera-Platas, Sánchez-Rada, and
+  Iglesias}{Araque et~al\mbox{.}}{2017}]%
+        {Araque17}
+{Oscar Araque}, {Ignacio Corcuera-Platas}, {J.~Fernando Sánchez-Rada}, {and}
+  {Carlos~A. Iglesias}. 2017.
+\newblock \showarticletitle{Enhancing deep learning sentiment analysis with
+  ensemble techniques in social applications}.
+\newblock {\em Expert Systems with Applications\/}  {77} (2017), 236 -- 246.
+\newblock
+\showISSN{0957-4174}
+\showDOI{%
+\url{http://dx.doi.org/https://doi.org/10.1016/j.eswa.2017.02.002}}
+
+
 \bibitem[\protect\citeauthoryear{{Bin Lin and Fiorella Zampetti and Gabriele
   Bavota and Massimiliano Di Penta and Michele Lanza, and Rocco Oliveto}}{{Bin
   Lin and Fiorella Zampetti and Gabriele Bavota and Massimiliano Di Penta and
@@ -92,6 +106,28 @@
   Far Can We Go ?}}
 \newblock  (2018), {1--11}.
 \newblock
+
+
+\bibitem[\protect\citeauthoryear{{Felipe Bravo-Marquez and Eibe Frank and Saif
+  M. Mohammad and Bernhard Pfahringer}}{{Felipe Bravo-Marquez and Eibe Frank
+  and Saif M. Mohammad and Bernhard Pfahringer}}{2016}]%
+        {Marquez16}
+{{Felipe Bravo-Marquez and Eibe Frank and Saif M. Mohammad and Bernhard
+  Pfahringer}}. {2016}.
+\newblock \showarticletitle{{Determining Word–Emotion Associations from
+  Tweets by Multi-Label Classification}}.
+\newblock  (oct {2016}), {536--539}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Garg and Chatterjee}{Garg and
+  Chatterjee}{2014}]%
+        {Garg14}
+{Yogesh Garg} {and} {Niladri Chatterjee}. 2014.
+\newblock \showarticletitle{Sentiment Analysis of Twitter Feeds}.
+\newblock  (2014), 33--52.
+\newblock
+\showISBNx{978-3-319-13820-6}
 
 
 \bibitem[\protect\citeauthoryear{Gupta, Negi, Vishwakarma, Rawat, and
@@ -124,6 +160,15 @@
 \url{http://dx.doi.org/10.1038/s41598-018-20132-7}}
 
 
+\bibitem[\protect\citeauthoryear{Hassan, Yulan, and Harith}{Hassan
+  et~al\mbox{.}}{2012}]%
+        {Saif12}
+{Saif Hassan}, {He Yulan}, {and} {Alani Harith}. 2012.
+\newblock \showarticletitle{Semantic Sentiment Analysis of Twitter}.
+\newblock  (2012), 508--524.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{\"{O}zt\"{u}rka and Ayvazb}{\"{O}zt\"{u}rka
   and Ayvazb}{2017}]%
         {Ayvazb17}
@@ -134,6 +179,27 @@
 \newblock
 \showDOI{%
 \url{http://dx.doi.org/10.1016/j.procs.2017.12.044}}
+
+
+\bibitem[\protect\citeauthoryear{Poddar, Halder, and Jia}{Poddar
+  et~al\mbox{.}}{2016}]%
+        {Poddar16}
+{Lahari Poddar}, {Kishaloy Halder}, {and} {Xianyan Jia}. 2016.
+\newblock \showarticletitle{Sentiment Analysis for Twitter : Going Beyond Tweet
+  Text}.
+\newblock {\em CoRR\/}  {abs/1611.09441} (2016).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Thakkar and Patel}{Thakkar and Patel}{2015}]%
+        {ThakkarP15}
+{Harsh Thakkar} {and} {Dhiren~R. Patel}. 2015.
+\newblock \showarticletitle{Approaches for Sentiment Analysis on Twitter: {A}
+  State-of-Art study}.
+\newblock {\em CoRR\/}  {abs/1512.01043} (2015).
+\newblock
+\showURL{%
+\url{http://arxiv.org/abs/1512.01043}}
 
 
 \bibitem[\protect\citeauthoryear{{Themis Palpanas and Mikalai
@@ -169,6 +235,18 @@
 \newblock
 \showDOI{%
 \url{http://dx.doi.org/{10.1016/j.asej.2014.04.011}}}
+
+
+\bibitem[\protect\citeauthoryear{Xiaomei, Jing, and Jianpei}{Xiaomei
+  et~al\mbox{.}}{2018}]%
+        {Zou18}
+{Zou Xiaomei}, {Yang Jing}, {and} {Zhang Jianpei}. 2018.
+\newblock \showarticletitle{Microblog sentiment analysis using social and topic
+  context}.
+\newblock {\em PLOS ONE\/} {13}, 2 (02 2018), 1--24.
+\newblock
+\showDOI{%
+\url{http://dx.doi.org/10.1371/journal.pone.0191163}}
 
 
 \bibitem[\protect\citeauthoryear{{Zhao Jianqiang and Gui Xiaolin}}{{Zhao

@@ -13,50 +13,59 @@ Warning--no number and no volume in Alm05
 Warning--no journal in Rebecca11
 Warning--no number and no volume in Rebecca11
 Warning--require articleno with numpages field in Rebecca11
+Warning--unrecognized DOI value [https://doi.org/10.1016/j.eswa.2017.02.002]
 Warning--no journal in Lin18
 Warning--no number and no volume in Lin18
+Warning--no journal in Marquez16
+Warning--no number and no volume in Marquez16
+Warning--no journal in Garg14
+Warning--no number and no volume in Garg14
 Warning--require articleno with numpages field in Badhani17
+Warning--no journal in Saif12
+Warning--no number and no volume in Saif12
+Warning--page numbers missing in both pages and numpages fields in Poddar16
+Warning--page numbers missing in both pages and numpages fields in ThakkarP15
 Warning--unusual to have number, but no volume, for Palpanas11
 Warning--unrecognized DOI value [{10.1016/j.asej.2014.04.011}]
-You've used 12 entries,
+You've used 19 entries,
             5290 wiz_defined-function locations,
-            1471 strings with 19405 characters,
-and the built_in function-call counts, 14040 in all, are:
-= -- 2127
-> -- 383
+            1529 strings with 20886 characters,
+and the built_in function-call counts, 21536 in all, are:
+= -- 3195
+> -- 654
 < -- 0
-+ -- 108
-- -- 233
-* -- 817
-:= -- 1399
-add.period$ -- 60
-call.type$ -- 12
-change.case$ -- 72
-chr.to.int$ -- 12
-cite$ -- 23
-duplicate$ -- 1021
-empty$ -- 736
-format.name$ -- 160
-if$ -- 3451
++ -- 188
+- -- 356
+* -- 1304
+:= -- 2189
+add.period$ -- 95
+call.type$ -- 19
+change.case$ -- 118
+chr.to.int$ -- 19
+cite$ -- 38
+duplicate$ -- 1570
+empty$ -- 1137
+format.name$ -- 276
+if$ -- 5300
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 48
-newline$ -- 152
-num.names$ -- 96
-pop$ -- 293
+missing$ -- 76
+newline$ -- 216
+num.names$ -- 152
+pop$ -- 481
 preamble$ -- 1
-purify$ -- 132
+purify$ -- 213
 quote$ -- 0
-skip$ -- 340
+skip$ -- 515
 stack$ -- 0
-substring$ -- 1487
-swap$ -- 129
-text.length$ -- 188
+substring$ -- 2142
+swap$ -- 186
+text.length$ -- 251
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 168
-warning$ -- 12
-while$ -- 120
+type$ -- 266
+warning$ -- 21
+while$ -- 173
 width$ -- 0
-write$ -- 259
-(There were 12 warnings)
+write$ -- 384
+(There were 21 warnings)
