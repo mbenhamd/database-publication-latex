@@ -41,7 +41,7 @@
 
 \terms{Twitter, Psychological Profile}
 
-\keywords{Data Mining, Natural Languages Processing, Sentiment Analysis, Classification, Text Mining}
+\keywords{Data Mining, Natural Languages Processing, Sentiment Analysis, Classification, Text Mining,Convutional Neural Network, TensorFlow}
 
 \acmformat{Mohamed Ben Hamdoune, Yannis Tannier. 2018. Sentiment Analysis for Twitter : Effects in a Social Network.}
 
@@ -70,8 +70,12 @@ In this study, we introduce to the readers, a problem of Data Processing and Clo
 
 \section{Related Work}
 \label{sec:related_work}
-It’s 2017, the people of the world generate 2.5 million terabytes of information a day. 500 million tweets, 1.8 billion pieces of shared information on Facebook, each and every day. These snippets of information regard anything under the sun; from what the user had for lunch, to their disgust over a referee in a football match. Twitter specifically has become known as a location where news is quickly disseminated in a concise format. When regarding a financial commodity, the public confidence in a particular commodity is a core base of its value. Social media has served as platform to express opinions since their inception, and as such tapping into the open APIs provided of the likes of Facebook and Twitter, these arguably biased pieces of information become available with a sea of meta-data.
 To begin, ye can refer to this article \cite{Palpanas11} because we can relate that it is a point of start, it gives us a theoretical review on the development of Sentiment Analysis. The interested reader can also refer to previous surveys in the area, like \cite{Ayvazb17} for their data process about tweets in Turkish and English  because most of free API have their functionnality in English. We also base on a previous work of \cite{Badhani17}, that helped us on machine learning techniques but they did not implement a real stream functionnality on their publication as we did, because they only use Tweepy and store their tweet fetched from it. One of the publication that helped us to analyse only English tweets was the W2VLDA and the work of \cite{Cuadros17}, they clearly have better results on English tweets. As an active research field that has emerged for a long time now, sentiment analysis is now been greatly implement but it is also with a cost (for example, IBM Watson Tone Analyzer). Sentiment analysis is a discipline that extracts people’s feelings, opinions, thoughts and behaviors from user’s text data using Natural Language Processing (NLP) methods. For methodologies on preprocessing, and feature generation, we based our work on process. Then we can also cite for a reason, they removed numbers from theirs tweet thinking that in general, numbers are of no use when measuring sentiment and are removed from tweets to refine the tweet content but we wanted to keep them thinking the contrary. We had over 800 million tweets in English and all that data to analyze where possible just because of the MapReduce Model in majority but there also a weakness for this model in our case.
+We will now make a comparison between Machine Learning methods and the results obtained in the following publication: (quote the Greeks) with our methods and the results we obtained.
+In this publication, the authors proceeded in two steps: A binary and tertiary classification. For the first, they retrieved a dataset of 1.5m of labeled tweets (positive and negative) that they divided into segments (1000.2000.5000.10000, 15000, 20000, 25000). Each segment was then transformed into a vector of unigrams. They then applied 2 ML algorithms: Naives Bayes, Logistic regression, deci- sion tree. For tertiary classification, the authors retrieved a dataset of 12,500 labels and applied the same algorithms.
+In the case of this publication, we wanted to test something else. We retrieved the same dataset as in the publication. First of all, we did a lot of pre-processing of the data to remove uppercase letters, punctuation, and so on. We then perform a Lemmatization on the dataset to group the words of the same family. Once the data set was processed, we transformed it into term documents (CountVectorizer) and we applied a tf-idf weighting.
+We then used the same 3 algorithms as in the publication to which we added others in order to have a better overview.
+
 
 \section{Cloud computing}
 \label{sec:cloud}
@@ -110,7 +114,7 @@ Machine learning approach relies on statistical algorithms in one hand to solve 
 \end{figure}
 
 
-\subsection{Pre-processing}
+\subsection{Pre-Processing}
 \label{subsub:preprocessing}
 
 In this paper we introduce two new resources for pre-processing twitter data \cite{Jianqiang17}, we used some of their ideas like removing URL, as you can see in the repository, an emoticon dictionary is available in Python and we can remove them from any tweets.Unsure and irrelevant label was not used for this classfication \cite{Poddar16} because we think that it is more relevant to detect bots and not adding them into the analyse process rather than put a tag on them and lose time of computation for sentiment analysis. It is powerful because even it is relevant, we can’t take them for computing them after due to a problem of time. Positive, Negative, and Neutral are the three labels for Sentiment Analysis and Joy, Fear, Anger, Surprise and Sadness are the fifth labels for Emotion Analysis. We pre-process all the tweets as follows:
@@ -132,6 +136,92 @@ To do this we took a tweet dataset that we labalised (after having data cleaned 
 We then transform this dataset into a term document matrix and apply a TF-IDF standardization to evaluate the importance of the term content in each tweet.
 Finally we applied a SVM for the classification because like they said \cite{Medhat14}, it is very suitable for text data.
 Once the model was extracted, we used it with spark to predict the emotion of all the tweets.
+
+\section{Deep Learning}
+\label{sec:dp}
+
+\subsection{Data Processing and Architecture}
+\label{subsub:dl}
+
+First, we downloaded the dataset of 1 578 627 tweets preclassified, then we read the dataset from the csv into two files (.pos and .ned) with (see csv\_parser.py). Then we generate a CSV with the vocabulary (and its inverse mapping) with an another process. Each vocabulary has a weight.
+For example if a name is wrote, we remplace it by \textless 
+NAME/\textgreater and the same thing for a link : \textless LINK/\textgreater.
+The network implemented in this script is a single layer CNN structured as follows:
+\begin{itemize}
+\item  \textbf{Embedding layer}: takes as input the tweets (as strings) and maps each word to an n-dimensional space so that it is represented as a sparse vector (see word2vec).
+\item  \textbf{Convolution layers}: a set of parallel 1D convolutional layers with the given filter sizes and 128 output channels. A filter's size is the number of embedded words that the filter covers.
+\item  \textbf{Pooling layers}: a set of pooling layers associated to each of the convolutional layers.
+\item  \textbf{Concat layer}: concatenates the output of the different pooling layers into a single tensor.
+\item  \textbf{Dropout layer}: performs neuron dropout (some neurons are randomly not considered during training).
+\item  \textbf{Output layer}: fully connected layer with a softmax activation function to perform classification.
+
+\subsection{TensorFlow}
+\label{subsub:dl}
+
+TensorFlow is an open source machine learning tool developed by Google. The source code was opened on November 9, 2015 by Google and released under Apache license.
+It is based on the DistBelief infrastructure, initiated by Google in 2011, and is equipped with a Python interface.
+TensorFlow is one of the most used tools in AI in the field of machine learning.
+We used an architecture based on previous work (here).
+Even we used a GTX 1060 (1212 cuda cores compared to the Titan V which was developed for Deep Learning with 5120 cuda core), it took 2h20 to train the CNN.
+The course of the exection is available in the file "log.log"
+The neural network weighs about 424.1 MB.
+You can download in JSON or CSV format the results for the validation of the training loss (here).
+
+The graphics below can be found thanks to the TensorFlow web interface.
+To summarize 110990 (epoch 10), validation accuracy: 0.825287, loss of training: 49.6865
+
+\begin{figure}[H]
+{\includegraphics[width=\linewidth]{validation-accuracy.png}}
+\caption{Schema of Validation Accuracy From TensorFlow Interface Web.}
+  \label{fig:archivedb}
+\end{figure}
+
+We can see a logarithmic evolution of the accuracy of the neuron network, 82\% is in itself a mean result in the sense that neuron methods are expected to be accurate to 95\% minimum in practical cases. For the text classification case, 1.5 million tweets do not contain enough vocabulary per se to allow large-scale use.
+
+\begin{figure}[H]
+{\includegraphics[width=\linewidth]{training-loss.png}}
+\caption{Schema of Training Loss From TensorFlow Interface Web.}
+  \label{fig:archivedb}
+\end{figure}
+
+
+The validation loss here is 49.68%.
+The lower the loss, the better model (unless the model has over-fitted to the training data). The loss is calculated on training and validation and its interperation is how well the model is doing for these two sets. Unlike accuracy, loss is not a percentage. It is a summation of the errors made for example in training or validation sets.
+In the case of neural networks, the loss is usually negative log-likelihood and residual sum of squares for classification and regression respectively. Then naturally, the main objective in a learning model is to reduce the value of the loss of the value of the product.
+Loss value implies a certain model behaves after each iteration of optimization. Ideally, one would expect the reduction of loss after each, or several, iteration (s).
+The accuracy of a model is usually determined by the model parameters and is determined. Then the test samples are fed to the model and the number of mistakes (zero-one loss) the model is recorded, after comparison to the true targets. Then the percentage of misclassification is calculated.
+For example, if the number of test samples is 1000 and model classifies 952 of those correctly, then the model's accuracy is 95.2%.
+
+Here is a summary of training loss and validation accuracy (done with Spark with the describe function).
+
+
+\begin{table}[H]
+\tbl{Training Loss describe}{%
+\begin{tabular}[width=\linewidth]{rcrcrcrc@{0.5in}}
+Summary &{Wall Time} &{Step} &{Value} \\
+$Mean$ & \[1.59x10^9\] & 552 51.293 & 56.1645 \\
+$Stddev$ & 2470.404 & 32 058.352 & 22.553 \\
+$Min$ & \[1.52x10^9\] & 100 157 & 102.860 \\
+$Max$ & \[1.52x10^9\] & 99 954 & 97.983 \\
+\end{tabular}}
+\label{tab:training_loss_a}
+\end{table}
+
+
+\begin{table}[H]
+\tbl{Validation Accuracy Describe}{%
+\begin{tabular}[width=\linewidth]{rcrcrcrc@{0.5in}}
+Summary &{Wall Time} &{Step} &{Value} \\
+$Mean$ & \[1.59x10^9\] & 65585.818 & 0.81360 \\
+$Stddev$ & 2701.1972 & 35258.454 & 0.01645 \\
+$Min$ & \[1.52x10^9\] & 11 099 & 0.7704 \\
+$Max$ & \[1.52x10^9\] & 99 891 & 0.8252 \\
+\end{tabular}}
+\label{tab:valid_loss_b}
+\end{table}
+
+Validation accuracy is a good practice.
+To conclude, as you can see, the previous work had a final validation accuracy of 0.80976, and a validation loss of 53.3314, one of the reseaon here it may be because we did more epochs so the network could more train (we do not have information about their initial configuration).
 
 \subsection{Feature Generation}
 \label{subsub:featureGeneration}
@@ -195,13 +285,6 @@ The platform presents a very classic web architecture. Our database Postgres wit
 We have developed Api RestFul through AWS Lambda and AWS GateWey that are responsible for executing sql requests and returning formatting data.
 And finally our web client react.js whose sole role is to call the Api Restfull and display the data visualization.
 
-
-\begin{figure}[H]
-{\includegraphics[width=\linewidth]{archive-schema.png}}
-\caption{Schema for the Archive Web Application.}
-  \label{fig:archiveweb}
-\end{figure}
-
 \subsection{Conception of the Real Stream}
 \label{subsub:conception_rs}
 
@@ -223,6 +306,54 @@ The streamTwitter.py file is our Twitter streamer and the kinesisStream.py file 
 \section{Results}
 \label{sub:results}
 
+
+\subsection{Classification - F-Measure}
+\label{subsub:english_tweets_monthly}
+
+\begin{table}[H]
+\tbl{Binary Classification Results}{%
+\begin{tabular}[width=\linewidth]{rcrcrc@{0.5in}}
+Classifier &{Best Solution Publication} &{Our Solution}  \\
+$Naives Bayes$ &  0.728 & 0.772 \\
+$Logistic Regression$ & 0.665 & 0.78 \\
+$Decision Trees$ &  0.597 & 0.68 \\
+$Random Forest$ &  - & 0.72 \\
+$Linear SVM$ &  - & 0.80 \\
+$SGB Classifier$ & - & 0.74 \\
+\end{tabular}}
+\label{tab:binary}
+\end{table}
+
+\begin{table}[H]
+\tbl{Ternary Classification Results From Publication}{%
+\begin{tabular}[width=\linewidth]{rcrcrcrcrc@{0.5in}}
+Classifier &{Positive} &{Negative} &{Neutral} &{Total}  \\
+$Naives Bayes$ &  0.717 & 0.75 & 0.617 & 0.696 \\
+$Logistic Regression$ & 0.628 & 0.592 & 0.542 & 0.591 \\
+$Decision Trees$ &  0.646 & 0.727 & 0.557 & 0.643 \\
+\end{tabular}}
+\label{tab:binary}
+\end{table}
+
+\begin{table}[H]
+\tbl{Our Results For Ternary Classification Results}{%
+\begin{tabular}[width=\linewidth]{rcrcrcrcrc@{0.5in}}
+Classifier &{Positive} &{Negative} &{Neutral} &{Total}  \\
+$Naives Bayes$ &  0.54 & 0.72 & 0.60 & 0.63 \\
+$Logistic Regression$ & 0.62 & 0.74 & 0.64 & 0.67 \\
+$Decision Trees$ &  0.58 & 0.68 & 0.59 & 0.62 \\
+$Random Forest$ &  0.58 & 0.72 & 0.62 & 0.65 \\
+$Linear SVM$ &  0.61 & 0.72 & 0.62 & 0.66 \\
+$SGB Classifier$ &  0.60 & 0.74 & 0.62 & 0.66 \\
+\end{tabular}}
+\label{tab:binary}
+\end{table}
+
+As we early introduced in related work, we can say that in the case of the binary classification, our method of preprocessing the data gives better results than that of the publication.
+We can also see that the SVM allows us to have the best accuracy.
+However, in the case of ternary classification, the method of publication is superior.
+
+
 \subsection{English tweets monthly analyzed}
 \label{subsub:english_tweets_monthly}
 
@@ -241,14 +372,8 @@ We analyzed the set of English tweets on the year, dividing by month to see any 
 \subsection{Psychological profile for any users}
 \label{subsub:psychological_profile}
 
-We have implemented a psychological profile by current user in the database (note that this feature and also available in the case of streaming too). Here we have taken the case of Donald Trump as an example since he is an active user of the social network. Structure similarity context are a also in search \cite{Zou18}.
-The problem of sentiment analysis from archive tweets is that there are not so many tweets as one does not imagine per user.
-
-\begin{figure}[H]
-{\includegraphics[width=\linewidth]{Trump-results-analysis_exemple.png}}
-\caption{Results predicted by our models with Donald John Trump (born June 14, 1946), the 45th and current President of the United States.}
-  \label{fig:trump_results}
-\end{figure}
+We have implemented a psychological profile by current user in the database (note that this feature and also available in the case of streaming too).Structure similarity context are a also in search \cite{Zou18}.The problem of sentiment analysis from archive tweets is that there are not so many tweets as one does not imagine per user.
+We implemented a solution in the website\footnote{\url{https://twitter.yannistannier.io/#/archive/user}}.
 
 
 \subsection{Impacts of tweets}
@@ -263,6 +388,60 @@ In this section, we wanted to talk about the effect of tweets on the community, 
   \label{fig:trump_results}
 \end{figure}
 
+\subsection{English tweets monthly analyzed}
+\label{subsub:english_tweets_monthly}
+
+We analyzed the set of English tweets on the year, dividing by month to see any evolution or regression during the year. A thorough American sociological study on the year 2017 could give the reasons for the graph. We were surprised at the symmetry between joy and sadness, proof that the emotional analysis is not as biased as one might think. 
+
+\subsection{Comparaison of TextBloB and True Results for Emotion Relation}
+\label{subsub:comparaisonEmotionRelation}
+
+Nous allons discuter maintenant de la cohérance de résultats.
+
+\begin{figure}[h!]
+{\includegraphics[width=\linewidth]{ratio-textblob.png}}
+\caption{Results for ratio Emotion/Sentiment with Number of tweets using TextBlob}
+  \label{fig:contradiction_barplot}
+\end{figure}
+
+
+In this paragraph we will start with TextBlob, the famous sentiment analyzer in the world of open source. The problem here is that the library offers 3 variables for the feeling. We can see that tweets are considered either negative, positive, or neutral gold in the basic data set we only have 2 possible values ​​(positive or negative). Here there is a contradiction of analysis, the sad messages are mostly positive. The explanation here is that a number of tweet considered neutral should be either positive or negative, the introduction of this new posibility of values ​​makes the model over-learning for feelings. Below is a summary table with the exact values.
+
+\begin{table}[H]
+\tbl{Cross Tab between sentiments and emotions using TextBloB}{%
+\begin{tabular}[width=\linewidth]{rcrcrcrcrcrc@{0.5in}}
+S\textbackslash E &{Joy} &{Fear} &{Anger} &{Surprise} &{Sadness} \\
+$Positive$ & 251 787 & 60 325 & 101 556 & 441 75 & 233 604  \\
+$Neutral$ & 146 876 & 61 592 & 120 944 & 26 772 & 201154 \\
+$Negative$ & 39 802 & 25 950 & 90 601 & 10 131 & 163 358 \\
+\end{tabular}}
+\label{tab:cross_tab_TextBLOB}
+\end{table}
+
+
+We do not have emotions variables in order to have an overview of our model of emotions to train from an SVM but as this graph indicates, there is a coherence in our results. Sad messages are considered negative and happy messages are positive. For the other cases, it would be necessary to realize a psychological study between feeling and emotions deepened in oneself.
+
+
+\begin{figure}[h!]
+{\includegraphics[width=\linewidth]{ratio-true-labels.png}}
+\caption{Results for ratio Emotion/Sentiment with Number of tweets using True Labels}
+  \label{fig:contradiction_barplot}
+\end{figure}
+
+\begin{table}[H]
+\tbl{Cross Tab between sentiments and emotions using True Labels}{%
+\begin{tabular}[width=\linewidth]{rcrcrcrcrcrc@{0.5in}}
+S\textbackslash E &{Joy} &{Fear} &{Anger} &{Surprise} &{Sadness} \\
+$Positive$ & 312 055 & 74 474 & 133 921 & 51 094 & 218 641  \\
+$Negative$ & 126 410 & 73 393 & 179 180 & 29 984 & 379 475 \\
+\end{tabular}}
+\label{tab:cross_tab_TrueLabels}
+\end{table}
+
+
+
+Above the results obtained for the list of tweets that are 1,578,627 in the sample.
+
 
 \section{Discussion}
 \label{sec:discussion}
@@ -270,7 +449,6 @@ In this section, we wanted to talk about the effect of tweets on the community, 
 We now turn our attention to the following interesting question: whether the subjective data that exist on the web carry useful information. Information can be thought of as data that reduce our uncertainty about some subject.This is an example with a sample of 383 623 424 tweets in English.
 
 \begin{table}[H]
-
 \tbl{Cross Tab between sentiments and emotions}{%
 \begin{tabular}[width=\linewidth]{rcrcrcrcrcrc@{0.5in}}
 S\textbackslash E &{Joy} &{Fear} &{Anger} &{Surprise} &{Sadness} \\
@@ -304,7 +482,7 @@ There are also other features for the real stream \footnote{\url{https://twitter
 \section{References}
 
 \begin{acks}
-We are grateful to the following people for resources, discussions and suggestions: Jason Scott (Archivist) and Diana Yuan (Co-Founder & Vice President, Talent & Operations from Indico).
+We are grateful to the following people for resources, discussions and suggestions: Jason Scott (Archivist) for his website and allow people to get some data useful for research and other things. We also wanted to thanks Diana Yuan (Co-Founder & Vice President, Talent & Operations from Indico), we exchanged a lot of email and she agreed to increase the numbers of calls from their API freely that we can do without a free account (initially it is 10k calls per day).
 \end{acks}
 
 % Bibliography

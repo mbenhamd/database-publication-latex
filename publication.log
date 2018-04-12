@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.2.15)  24 MAR 2018 23:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.7)  12 APR 2018 20:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **publication.tex
 (./publication.tex
-LaTeX2e <2017/01/01> patch level 3
-Babel <3.9r> and hyphenation patterns for 5 language(s) loaded.
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 5 language(s) loaded.
 (./acmtog.cls
 Document Class: acmtog 2012/03/07
 (/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
@@ -55,7 +55,7 @@ LaTeX Info: Redefining \cal on input line 1053.
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
-Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+Package: bm 2014/10/28 v1.1c Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup5
 \symboldletters=\mathgroup6
 \symboldsymbols=\mathgroup7
@@ -71,24 +71,24 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count92
 ))
@@ -96,96 +96,97 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@width=\dimen114
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
-Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
-Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-Package: xcolor-patch 2016/05/16 xcolor patch
-Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen115
 \Hy@linkcounter=\count93
 \Hy@pagecounter=\count94
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count95
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `hypertexnames' set `false' on input line 4362.
-Package hyperref Info: Hyper figures OFF on input line 4486.
-Package hyperref Info: Link nesting OFF on input line 4491.
-Package hyperref Info: Hyper index ON on input line 4494.
-Package hyperref Info: Plain pages OFF on input line 4501.
-Package hyperref Info: Backreferencing OFF on input line 4506.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4735.
+Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count96
-LaTeX Info: Redefining \url on input line 5088.
+LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen116
 \Fld@menulength=\count97
 \Field@Width=\dimen117
 \Fld@charsize=\dimen118
-Package hyperref Info: Hyper figures OFF on input line 6342.
-Package hyperref Info: Link nesting OFF on input line 6347.
-Package hyperref Info: Hyper index ON on input line 6350.
-Package hyperref Info: backreferencing OFF on input line 6357.
-Package hyperref Info: Link coloring OFF on input line 6362.
-Package hyperref Info: Link coloring with OCG OFF on input line 6367.
-Package hyperref Info: PDF/A mode OFF on input line 6372.
-LaTeX Info: Redefining \ref on input line 6412.
-LaTeX Info: Redefining \pageref on input line 6416.
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
 \Hy@abspage=\count98
 \c@Item=\count99
 \c@Hfootnote=\count100
@@ -194,12 +195,12 @@ LaTeX Info: Redefining \pageref on input line 6416.
 Package hyperref Message: Driver: hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count101
 \c@bookmark@seq@number=\count102
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
@@ -216,13 +217,37 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box34
 ) (./publication.aux
 
-LaTeX Warning: Label `fig:trump_results' multiply defined.
+LaTeX Warning: Label `subsub:dl' multiply defined.
+
+
+LaTeX Warning: Label `fig:archivedb' multiply defined.
+
+
+LaTeX Warning: Label `fig:archivedb' multiply defined.
+
+
+LaTeX Warning: Label `tab:binary' multiply defined.
+
+
+LaTeX Warning: Label `tab:binary' multiply defined.
+
+
+LaTeX Warning: Label `subsub:english_tweets_monthly' multiply defined.
 
 
 LaTeX Warning: Label `fig:trump_results' multiply defined.
 
 
 LaTeX Warning: Label `fig:trump_results' multiply defined.
+
+
+LaTeX Warning: Label `subsub:english_tweets_monthly' multiply defined.
+
+
+LaTeX Warning: Label `fig:contradiction_barplot' multiply defined.
+
+
+LaTeX Warning: Label `fig:contradiction_barplot' multiply defined.
 
 )
 \openout1 = `publication.aux'.
@@ -247,7 +272,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 \bibhang=\skip43
 
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count104
 \scratchdimen=\dimen119
@@ -261,17 +286,15 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 \makeMPintoPDFobject=\count109
 \everyMPtoPDFconversion=\toks18
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
+(grfext)             \AppendGraphicsExtensions on input line 452.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -280,20 +303,20 @@ e
 \AtBeginShipoutBox=\box36
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 147.
+Package color Info: Driver file: pdftex.def on input line 143.
 )
 Package hyperref Info: Link coloring ON on input line 29.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count110
 )
@@ -386,9 +409,6 @@ Missing character: There is no ô in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 Non-PDF special ignored!
 
@@ -398,13 +418,13 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 $[]$[][][][]$\OT1/ptm/m/n/8 https : / / github . com / mbenhamd / twitter-[]sen
 timent-[]analysis / tree / master /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 $[]$[][][][]$\OT1/ptm/m/n/8 https : / / github . com / yannistannier / twitter-
 []sentiment-[]analysis / tree / master /
  []
@@ -412,19 +432,19 @@ $[]$[][][][]$\OT1/ptm/m/n/8 https : / / github . com / yannistannier / twitter-
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
-<first_ten_languages.png, id=118, 653.44125pt x 423.83344pt>
+<first_ten_languages.png, id=142, 653.44125pt x 423.83344pt>
 File: first_ten_languages.png Graphic file (type png)
 
 <use first_ten_languages.png>
-Package pdftex.def Info: first_ten_languages.png used on input line 107.
+Package pdftex.def Info: first_ten_languages.png used on input line 111.
 (pdftex.def)             Requested size: 240.0pt x 155.66475pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 111.
+(Font)              <7> on input line 115.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 111.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 115.
 
 Overfull \vbox (0.633pt too high) has occurred while \output is active []
 
@@ -447,78 +467,459 @@ Missing character: There is no ù in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 147.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptm.fd
+File: omlptm.fd 
+)
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <9> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 147.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 151.
+
+<validation-accuracy.png, id=162, 1578.89874pt x 538.01pt>
+File: validation-accuracy.png Graphic file (type png)
+
+<use validation-accuracy.png>
+Package pdftex.def Info: validation-accuracy.png used on input line 174.
+(pdftex.def)             Requested size: 240.0pt x 81.77344pt.
+
+Underfull \vbox (badness 8000) has occurred while \output is active []
+
+
+Overfull \vbox (0.633pt too high) has occurred while \output is active []
+
+ [3 <./first_ten_languages.png (PNG copy)>]
+<training-loss.png, id=176, 1578.89874pt x 563.10374pt>
+File: training-loss.png Graphic file (type png)
+
+<use training-loss.png>
+Package pdftex.def Info: training-loss.png used on input line 182.
+(pdftex.def)             Requested size: 240.0pt x 85.5875pt.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.206 \end{tabular}}
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.206 \end{tabular}}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.206 \end{tabular}}
+                    
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.206 \end{tabular}}
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.206 \end{tabular}}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.206 \end{tabular}}
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.206 \end{tabular}}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.206 \end{tabular}}
+                    
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.206 \end{tabular}}
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.206 \end{tabular}}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.206 \end{tabular}}
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.206 \end{tabular}}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.206 \end{tabular}}
+                    
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.206 \end{tabular}}
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.206 \end{tabular}}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.219 \end{tabular}}
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.219 \end{tabular}}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.219 \end{tabular}}
+                    
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.219 \end{tabular}}
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.219 \end{tabular}}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.219 \end{tabular}}
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.219 \end{tabular}}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.219 \end{tabular}}
+                    
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.219 \end{tabular}}
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.219 \end{tabular}}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.219 \end{tabular}}
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.219 \end{tabular}}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.219 \end{tabular}}
+                    
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.219 \end{tabular}}
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.219 \end{tabular}}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 
 Overfull \vbox (0.633pt too high) has occurred while \output is active []
 
- [3 <./first_ten_languages.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 176--176
+ [4 <./validation-accuracy.png> <./training-loss.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
 $[]$[][][][]$\OT1/ptm/m/n/8 https : / / github . com / yannistannier / twitter-
 []sentiment-[]analysis / tree / master /
  []
 
-<table-web-db.png, id=152, 1459.4525pt x 890.32625pt>
+<table-web-db.png, id=196, 1459.4525pt x 890.32625pt>
 File: table-web-db.png Graphic file (type png)
  <use table-web-db.png>
-Package pdftex.def Info: table-web-db.png used on input line 184.
+Package pdftex.def Info: table-web-db.png used on input line 274.
 (pdftex.def)             Requested size: 240.0pt x 146.40842pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-<archive-schema.png, id=153, 1798.72pt x 1066.98625pt>
-File: archive-schema.png Graphic file (type png)
-
-<use archive-schema.png>
-Package pdftex.def Info: archive-schema.png used on input line 200.
-(pdftex.def)             Requested size: 240.0pt x 142.36pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
 $[]$[][][][]$\OT1/ptm/m/n/8 https : / / github . com / yannistannier / twitter-
 []sentiment-[]analysis / tree / master /
+ []
+
+<real_stream-schema.png, id=199, 1309.89375pt x 481.8pt>
+File: real_stream-schema.png Graphic file (type png)
+
+<use real_stream-schema.png>
+Package pdftex.def Info: real_stream-schema.png used on input line 300.
+(pdftex.def)             Requested size: 240.0pt x 88.27145pt.
+
+Overfull \vbox (0.633pt too high) has occurred while \output is active []
+
+ [5 <./table-web-db.png> <./real_stream-schema.png>]
+<monthly_analysis_joy_sadness-exemple.png, id=213, 673.51625pt x 352.31625pt>
+File: monthly_analysis_joy_sadness-exemple.png Graphic file (type png)
+
+<use monthly_analysis_joy_sadness-exemple.png>
+Package pdftex.def Info: monthly_analysis_joy_sadness-exemple.png used on input
+ line 364.
+(pdftex.def)             Requested size: 240.0pt x 125.54353pt.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   /
+l.376 ...twitter.yannistannier.io/#/archive/user}}
+                                                  .
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   /
+l.376 ...twitter.yannistannier.io/#/archive/user}}
+                                                  .
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+
+<retweeted_emotion_sentiment_trump-exemple.png, id=218, 666.49pt x 685.56125pt>
+File: retweeted_emotion_sentiment_trump-exemple.png Graphic file (type png)
+<use retweeted_emotion_sentiment_trump-exemple.png>
+Package pdftex.def Info: retweeted_emotion_sentiment_trump-exemple.png used on 
+input line 386.
+(pdftex.def)             Requested size: 240.0pt x 246.86462pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (0.633pt too high) has occurred while \output is active []
+
+ [6 <./monthly_analysis_joy_sadness-exemple.png>]
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+
+<ratio-textblob.png, id=234, 776.9025pt x 423.08063pt>
+File: ratio-textblob.png Graphic file (type png)
+
+<use ratio-textblob.png>
+Package pdftex.def Info: ratio-textblob.png used on input line 402.
+(pdftex.def)             Requested size: 240.0pt x 130.69528pt.
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ã in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ã in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ã in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ã in font ptmr7t!
+
+<ratio-true-labels.png, id=235, 776.9025pt x 423.08063pt>
+File: ratio-true-labels.png Graphic file (type png)
+
+<use ratio-true-labels.png>
+Package pdftex.def Info: ratio-true-labels.png used on input line 426.
+(pdftex.def)             Requested size: 240.0pt x 130.69528pt.
+
+Underfull \hbox (badness 1303) in paragraph at lines 443--444
+[]\OT1/ptm/m/n/9 Above the re-sults ob-tained for the list of tweets that are
  []
 
 
 Overfull \vbox (0.633pt too high) has occurred while \output is active []
 
- [4 <./table-web-db.png> <./archive-schema.png>]
-<real_stream-schema.png, id=168, 1309.89375pt x 481.8pt>
-File: real_stream-schema.png Graphic file (type png)
-
-<use real_stream-schema.png>
-Package pdftex.def Info: real_stream-schema.png used on input line 217.
-(pdftex.def)             Requested size: 240.0pt x 88.27145pt.
-
-<monthly_analysis_joy_sadness-exemple.png, id=170, 673.51625pt x 352.31625pt>
-File: monthly_analysis_joy_sadness-exemple.png Graphic file (type png)
-
-<use monthly_analysis_joy_sadness-exemple.png>
-Package pdftex.def Info: monthly_analysis_joy_sadness-exemple.png used on input
- line 233.
-(pdftex.def)             Requested size: 240.0pt x 125.54353pt.
-
-<Trump-results-analysis_exemple.png, id=172, 821.469pt x 431.211pt>
-File: Trump-results-analysis_exemple.png Graphic file (type png)
-
-<use Trump-results-analysis_exemple.png>
-Package pdftex.def Info: Trump-results-analysis_exemple.png used on input line 
-248.
-(pdftex.def)             Requested size: 240.0pt x 125.9823pt.
-
-<retweeted_emotion_sentiment_trump-exemple.png, id=174, 666.49pt x 685.56125pt>
-File: retweeted_emotion_sentiment_trump-exemple.png Graphic file (type png)
-<use retweeted_emotion_sentiment_trump-exemple.png>
-Package pdftex.def Info: retweeted_emotion_sentiment_trump-exemple.png used on 
-input line 261.
-(pdftex.def)             Requested size: 240.0pt x 246.86462pt.
-
-Overfull \vbox (0.633pt too high) has occurred while \output is active []
-
- [5 <./real_stream-schema.png> <./monthly_analysis_joy_sadness-exemple.png> <./
-Trump-results-analysis_exemple.png> <./retweeted_emotion_sentiment_trump-exempl
-e.png>]
+ [7 <./retweeted_emotion_sentiment_trump-exemple.png> <./ratio-textblob.png (PN
+G copy)> <./ratio-true-labels.png (PNG copy)>]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
@@ -538,12 +939,12 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 
-<final_plot_contradiction_analysis.png, id=194, 652.68843pt x 423.83344pt>
+<final_plot_contradiction_analysis.png, id=252, 652.68843pt x 423.83344pt>
 File: final_plot_contradiction_analysis.png Graphic file (type png)
 
 <use final_plot_contradiction_analysis.png>
 Package pdftex.def Info: final_plot_contradiction_analysis.png used on input li
-ne 287.
+ne 465.
 (pdftex.def)             Requested size: 240.0pt x 155.84583pt.
 
 
@@ -552,7 +953,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.300 ...s://twitter.yannistannier.io/#/realtime}}
+l.478 ...s://twitter.yannistannier.io/#/realtime}}
                                                    such as geolocation of pe...
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -561,14 +962,14 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.300 ...s://twitter.yannistannier.io/#/realtime}}
+l.478 ...s://twitter.yannistannier.io/#/realtime}}
                                                    such as geolocation of pe...
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
 ! Misplaced alignment tab character &.
-l.307 ... (Archivist) and Diana Yuan (Co-Founder &
+l.485 ...wanted to thanks Diana Yuan (Co-Founder &
                                                    Vice President, Talent & ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -578,8 +979,8 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.307 ...an (Co-Founder & Vice President, Talent &
-                                                   Operations from Indico).
+l.485 ...an (Co-Founder & Vice President, Talent &
+                                                   Operations from Indico), ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -598,80 +999,91 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--59
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--59
+Underfull \hbox (badness 4454) in paragraph at lines 52--59
 \OT1/ptm/m/n/8 Sen-ti-ment Anal-y-sis on Twit-ter Data.  (Aug. 2017), 15--25.
- []
-
-Missing character: There is no √ in font ptmr7t!
-Missing character: There is no ° in font ptmr7t!
-
-Underfull \hbox (badness 5374) in paragraph at lines 87--96
-[]\OT1/ptm/m/n/8 Oscar Araque, Ig-na-cio Corcuera-Platas, J. Fer-nando Snchez-R
-ada,
- []
-
-
-Underfull \hbox (badness 4096) in paragraph at lines 87--96
-\OT1/ptm/m/n/8 and Car-los A. Igle-sias. 2017.  En-hanc-ing deep learn-ing sen-
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--96
-\OT1/ptm/m/n/8 ti-ment anal-y-sis with en-sem-ble tech-niques in so-cial ap-pli
--ca-
- []
-
-
-Underfull \hbox (badness 1609) in paragraph at lines 87--96
-\OT1/ptm/m/n/8 tions.  \OT1/ptm/m/it/8 Ex-pert Sys-tems with Ap-pli-ca-tions \O
-T1/ptm/m/n/8 77 (2017), 236 -- 246.
  []
 
 
 Overfull \vbox (0.633pt too high) has occurred while \output is active []
 
- [6 <./final_plot_contradiction_analysis.png (PNG copy)>]
+ [8 <./final_plot_contradiction_analysis.png (PNG copy)>]
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no ° in font ptmr7t!
+
+Underfull \hbox (badness 1603) in paragraph at lines 87--96
+[]\OT1/ptm/m/n/8 Oscar Araque, Ig-na-cio Corcuera-Platas, J. Fer-nando Snchez-R
+ada,
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 87--96
+\OT1/ptm/m/n/8 and Car-los A. Igle-sias. 2017.  En-hanc-ing deep learn-ing sen-
+
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 87--96
+\OT1/ptm/m/n/8 ti-ment anal-y-sis with en-sem-ble tech-niques in so-cial ap-pli
+-ca-
+ []
+
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ì in font ptmr7t!
 
-Underfull \hbox (badness 2142) in paragraph at lines 136--146
-[]\OT1/ptm/m/n/8 Bhumika Gupta, Monika Negi, Kanika Vish-wakarma, Goldi Rawat,
- []
-
-
-Underfull \hbox (badness 1490) in paragraph at lines 136--146
-\OT1/ptm/m/n/8 and Priyanka Bad-hani. 2017.  Study of Twit-ter Sen-ti-ment Anal
--
- []
-
-
-Underfull \hbox (badness 3386) in paragraph at lines 136--146
+Underfull \hbox (badness 1418) in paragraph at lines 136--146
 \OT1/ptm/m/n/8 y-sis us-ing Ma-chine Learn-ing Al-go-rithms on Python.  \OT1/pt
 m/m/it/8 In-ter-na-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--182
+Underfull \hbox (badness 1178) in paragraph at lines 152--161
+[]\OT1/ptm/m/n/8 Hardik Meish-eri and Rupsa Saha and Priyanka Sinha and Lipika
+ []
+
+
+Underfull \hbox (badness 4156) in paragraph at lines 152--161
+\OT1/ptm/m/n/8 Dey. 2017.  A Deep Learn-ing Ap-proach to Sen-ti-ment In-
+ []
+
+
+Underfull \hbox (badness 3240) in paragraph at lines 152--161
+\OT1/ptm/m/n/8 ten-sity Scor-ing of En-glish Tweets.  \OT1/ptm/m/it/8 Pro-ceed-
+ings of the 8th
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 152--161
+\OT1/ptm/m/it/8 Work-shop on Com-pu-ta-tional Ap-proaches to Sub-jec-tiv-ity, S
+en-ti-
+ []
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 152--161
+\OT1/ptm/m/it/8 ment and So-cial Me-dia Anal-y-sis \OT1/ptm/m/n/8 8, 7 (Sept. 2
+017), 193--199.
+ []
+
+
+Underfull \hbox (badness 4779) in paragraph at lines 175--182
 []\OT1/ptm/m/n/8 Nazan []Ozt[]urka and Serkan Ay-vazb. 2017.  Sen-ti-ment anal-
 y-
  []
 
 
-Underfull \hbox (badness 3838) in paragraph at lines 175--182
+Underfull \hbox (badness 1803) in paragraph at lines 175--182
 \OT1/ptm/m/n/8 sis on Twit-ter: A text min-ing ap-proach to the Syr-ian refugee
 
  []
 
 
-Underfull \hbox (badness 5161) in paragraph at lines 175--182
+Underfull \hbox (badness 2460) in paragraph at lines 175--182
 \OT1/ptm/m/n/8 cri-sis.  \OT1/ptm/m/it/8 Telem-at-ics and In-for-mat-ics \OT1/p
 tm/m/n/8 35 (Oct. 2017), 136--147.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--238
+Underfull \hbox (badness 5908) in paragraph at lines 230--238
 []\OT1/ptm/m/n/8 Walaa Med-hat and Ahmed Has-san and Hoda Ko-rashy. 2014.
  []
 
@@ -698,53 +1110,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--262
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--262
+Underfull \hbox (badness 6592) in paragraph at lines 255--262
 \OT1/ptm/m/n/8 ment Anal-y-sis.  \OT1/ptm/m/it/8 IEEE Ac-cess \OT1/ptm/m/n/8 5 
 (Feb. 2017), 2870--2879.
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 315.
+
+! LaTeX Error: \begin{itemize} on input line 150 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.493 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 493.
 
 Overfull \vbox (0.633pt too high) has occurred while \output is active []
 
- [7
+ [9
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 315.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 493.
 
 (./publication.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 315.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 315.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 493.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 493.
 Package rerunfilecheck Info: File `publication.out' has not changed.
-(rerunfilecheck)             Checksum: C9F55A83689F3C28BBD0E6759791B9A9;1291.
+(rerunfilecheck)             Checksum: B04DACF2F9DBFA263EE8C12A6D532982;1752.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 315.
- ) 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 493.
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 150 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 5858 strings out of 494902
- 85691 string characters out of 6179891
- 180917 words of memory out of 5000000
- 9003 multiletter control sequences out of 15000+600000
- 36334 words of font info for 91 fonts, out of 8000000 for 9000
+ 5909 strings out of 494910
+ 86323 string characters out of 6179837
+ 182106 words of memory out of 5000000
+ 9012 multiletter control sequences out of 15000+600000
+ 37960 words of font info for 93 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 34i,9n,28p,2491b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
-c/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on publication.pdf (7 pages, 482298 bytes).
+ 34i,9n,28p,2491b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on publication.pdf (9 pages, 627282 bytes).
 PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
- 260 compressed objects within 3 object streams
- 73 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 355 PDF objects out of 1000 (max. 8388607)
+ 317 compressed objects within 4 object streams
+ 100 named destinations out of 1000 (max. 500000)
+ 259 words of extra memory for PDF output out of 10000 (max. 10000000)
 
