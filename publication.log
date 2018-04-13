@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.7)  12 APR 2018 20:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.7)  13 APR 2018 23:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -482,10 +482,10 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 File: validation-accuracy.png Graphic file (type png)
 
 <use validation-accuracy.png>
-Package pdftex.def Info: validation-accuracy.png used on input line 174.
+Package pdftex.def Info: validation-accuracy.png used on input line 175.
 (pdftex.def)             Requested size: 240.0pt x 81.77344pt.
 
-Underfull \vbox (badness 8000) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (0.633pt too high) has occurred while \output is active []
@@ -495,13 +495,13 @@ Overfull \vbox (0.633pt too high) has occurred while \output is active []
 File: training-loss.png Graphic file (type png)
 
 <use training-loss.png>
-Package pdftex.def Info: training-loss.png used on input line 182.
+Package pdftex.def Info: training-loss.png used on input line 183.
 (pdftex.def)             Requested size: 240.0pt x 85.5875pt.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.206 \end{tabular}}
+l.207 \end{tabular}}
                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -513,7 +513,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.206 \end{tabular}}
+l.207 \end{tabular}}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -522,7 +522,7 @@ or  <return>  to continue without it.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \endtemplate 
-l.206 \end{tabular}}
+l.207 \end{tabular}}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -533,7 +533,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.206 \end{tabular}}
+l.207 \end{tabular}}
                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -541,7 +541,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.206 \end{tabular}}
+l.207 \end{tabular}}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -552,7 +552,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.206 \end{tabular}}
+l.207 \end{tabular}}
                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -564,7 +564,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.206 \end{tabular}}
+l.207 \end{tabular}}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -573,7 +573,7 @@ or  <return>  to continue without it.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \endtemplate 
-l.206 \end{tabular}}
+l.207 \end{tabular}}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -584,7 +584,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.206 \end{tabular}}
+l.207 \end{tabular}}
                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -592,7 +592,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.206 \end{tabular}}
+l.207 \end{tabular}}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -603,7 +603,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.206 \end{tabular}}
+l.207 \end{tabular}}
                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -615,7 +615,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.206 \end{tabular}}
+l.207 \end{tabular}}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -624,7 +624,7 @@ or  <return>  to continue without it.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \endtemplate 
-l.206 \end{tabular}}
+l.207 \end{tabular}}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -635,7 +635,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.206 \end{tabular}}
+l.207 \end{tabular}}
                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -643,7 +643,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.206 \end{tabular}}
+l.207 \end{tabular}}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -654,7 +654,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.219 \end{tabular}}
+l.220 \end{tabular}}
                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -666,7 +666,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.219 \end{tabular}}
+l.220 \end{tabular}}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -675,7 +675,7 @@ or  <return>  to continue without it.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \endtemplate 
-l.219 \end{tabular}}
+l.220 \end{tabular}}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -686,7 +686,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.219 \end{tabular}}
+l.220 \end{tabular}}
                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -694,7 +694,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.219 \end{tabular}}
+l.220 \end{tabular}}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -705,7 +705,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.219 \end{tabular}}
+l.220 \end{tabular}}
                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -717,7 +717,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.219 \end{tabular}}
+l.220 \end{tabular}}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -726,7 +726,7 @@ or  <return>  to continue without it.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \endtemplate 
-l.219 \end{tabular}}
+l.220 \end{tabular}}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -737,7 +737,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.219 \end{tabular}}
+l.220 \end{tabular}}
                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -745,7 +745,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.219 \end{tabular}}
+l.220 \end{tabular}}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -756,7 +756,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.219 \end{tabular}}
+l.220 \end{tabular}}
                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -768,7 +768,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.219 \end{tabular}}
+l.220 \end{tabular}}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -777,7 +777,7 @@ or  <return>  to continue without it.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \endtemplate 
-l.219 \end{tabular}}
+l.220 \end{tabular}}
                     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -788,7 +788,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.219 \end{tabular}}
+l.220 \end{tabular}}
                     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -796,7 +796,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.219 \end{tabular}}
+l.220 \end{tabular}}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -811,7 +811,7 @@ Missing character: There is no ô in font ptmr7t!
 Overfull \vbox (0.633pt too high) has occurred while \output is active []
 
  [4 <./validation-accuracy.png> <./training-loss.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 267--267
 $[]$[][][][]$\OT1/ptm/m/n/8 https : / / github . com / yannistannier / twitter-
 []sentiment-[]analysis / tree / master /
  []
@@ -819,13 +819,13 @@ $[]$[][][][]$\OT1/ptm/m/n/8 https : / / github . com / yannistannier / twitter-
 <table-web-db.png, id=196, 1459.4525pt x 890.32625pt>
 File: table-web-db.png Graphic file (type png)
  <use table-web-db.png>
-Package pdftex.def Info: table-web-db.png used on input line 274.
+Package pdftex.def Info: table-web-db.png used on input line 275.
 (pdftex.def)             Requested size: 240.0pt x 146.40842pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--295
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
 $[]$[][][][]$\OT1/ptm/m/n/8 https : / / github . com / yannistannier / twitter-
 []sentiment-[]analysis / tree / master /
  []
@@ -834,7 +834,7 @@ $[]$[][][][]$\OT1/ptm/m/n/8 https : / / github . com / yannistannier / twitter-
 File: real_stream-schema.png Graphic file (type png)
 
 <use real_stream-schema.png>
-Package pdftex.def Info: real_stream-schema.png used on input line 300.
+Package pdftex.def Info: real_stream-schema.png used on input line 301.
 (pdftex.def)             Requested size: 240.0pt x 88.27145pt.
 
 Overfull \vbox (0.633pt too high) has occurred while \output is active []
@@ -845,13 +845,13 @@ File: monthly_analysis_joy_sadness-exemple.png Graphic file (type png)
 
 <use monthly_analysis_joy_sadness-exemple.png>
 Package pdftex.def Info: monthly_analysis_joy_sadness-exemple.png used on input
- line 364.
+ line 365.
 (pdftex.def)             Requested size: 240.0pt x 125.54353pt.
 
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.376 ...twitter.yannistannier.io/#/archive/user}}
+l.377 ...twitter.yannistannier.io/#/archive/user}}
                                                   .
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -860,7 +860,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.376 ...twitter.yannistannier.io/#/archive/user}}
+l.377 ...twitter.yannistannier.io/#/archive/user}}
                                                   .
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -871,89 +871,85 @@ are all screwed up? I'm going to assume that you meant ##.
 File: retweeted_emotion_sentiment_trump-exemple.png Graphic file (type png)
 <use retweeted_emotion_sentiment_trump-exemple.png>
 Package pdftex.def Info: retweeted_emotion_sentiment_trump-exemple.png used on 
-input line 386.
+input line 387.
 (pdftex.def)             Requested size: 240.0pt x 246.86462pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (0.633pt too high) has occurred while \output is active []
-
- [6 <./monthly_analysis_joy_sadness-exemple.png>]
 Missing character: There is no √ in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
 Missing character: There is no √ in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
 
-<ratio-textblob.png, id=234, 776.9025pt x 423.08063pt>
+<ratio-textblob.png, id=219, 776.9025pt x 423.08063pt>
 File: ratio-textblob.png Graphic file (type png)
 
 <use ratio-textblob.png>
-Package pdftex.def Info: ratio-textblob.png used on input line 402.
+Package pdftex.def Info: ratio-textblob.png used on input line 403.
 (pdftex.def)             Requested size: 240.0pt x 130.69528pt.
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ã in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ã in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ã in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ã in font ptmr7t!
-
-<ratio-true-labels.png, id=235, 776.9025pt x 423.08063pt>
-File: ratio-true-labels.png Graphic file (type png)
-
-<use ratio-true-labels.png>
-Package pdftex.def Info: ratio-true-labels.png used on input line 426.
-(pdftex.def)             Requested size: 240.0pt x 130.69528pt.
-
-Underfull \hbox (badness 1303) in paragraph at lines 443--444
-[]\OT1/ptm/m/n/9 Above the re-sults ob-tained for the list of tweets that are
- []
-
 
 Overfull \vbox (0.633pt too high) has occurred while \output is active []
 
- [7 <./retweeted_emotion_sentiment_trump-exemple.png> <./ratio-textblob.png (PN
-G copy)> <./ratio-true-labels.png (PNG copy)>]
+ [6 <./monthly_analysis_joy_sadness-exemple.png> <./retweeted_emotion_sentiment
+_trump-exemple.png>]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ã in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ã in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ã in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ã in font ptmr7t!
+ <ratio-true-labels.png, id=238, 776.9025pt x 423.08063pt>
+File: ratio-true-labels.png Graphic file (type png)
 
-<final_plot_contradiction_analysis.png, id=252, 652.68843pt x 423.83344pt>
-File: final_plot_contradiction_analysis.png Graphic file (type png)
-
-<use final_plot_contradiction_analysis.png>
-Package pdftex.def Info: final_plot_contradiction_analysis.png used on input li
-ne 465.
-(pdftex.def)             Requested size: 240.0pt x 155.84583pt.
+<use ratio-true-labels.png>
+Package pdftex.def Info: ratio-true-labels.png used on input line 427.
+(pdftex.def)             Requested size: 240.0pt x 130.69528pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+Underfull \hbox (badness 1303) in paragraph at lines 444--445
+[]\OT1/ptm/m/n/9 Above the re-sults ob-tained for the list of tweets that are
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+
+Overfull \vbox (0.633pt too high) has occurred while \output is active []
+
+ [7 <./ratio-textblob.png (PNG copy)> <./ratio-true-labels.png (PNG copy)>]
+<final_plot_contradiction_analysis.png, id=256, 652.68843pt x 423.83344pt>
+File: final_plot_contradiction_analysis.png Graphic file (type png)
+
+<use final_plot_contradiction_analysis.png>
+Package pdftex.def Info: final_plot_contradiction_analysis.png used on input li
+ne 466.
+(pdftex.def)             Requested size: 240.0pt x 155.84583pt.
+
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.478 ...s://twitter.yannistannier.io/#/realtime}}
+l.479 ...s://twitter.yannistannier.io/#/realtime}}
                                                    such as geolocation of pe...
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -962,14 +958,14 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    /
-l.478 ...s://twitter.yannistannier.io/#/realtime}}
+l.479 ...s://twitter.yannistannier.io/#/realtime}}
                                                    such as geolocation of pe...
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
 ! Misplaced alignment tab character &.
-l.485 ...wanted to thanks Diana Yuan (Co-Founder &
+l.486 ...wanted to thanks Diana Yuan (Co-Founder &
                                                    Vice President, Talent & ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -979,7 +975,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.485 ...an (Co-Founder & Vice President, Talent &
+l.486 ...an (Co-Founder & Vice President, Talent &
                                                    Operations from Indico), ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -999,91 +995,76 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--59
  []
 
 
-Underfull \hbox (badness 4454) in paragraph at lines 52--59
+Underfull \hbox (badness 10000) in paragraph at lines 52--59
 \OT1/ptm/m/n/8 Sen-ti-ment Anal-y-sis on Twit-ter Data.  (Aug. 2017), 15--25.
  []
 
-
-Overfull \vbox (0.633pt too high) has occurred while \output is active []
-
- [8 <./final_plot_contradiction_analysis.png (PNG copy)>]
 Missing character: There is no √ in font ptmr7t!
 Missing character: There is no ° in font ptmr7t!
 
-Underfull \hbox (badness 1603) in paragraph at lines 87--96
+Underfull \hbox (badness 5374) in paragraph at lines 87--96
 []\OT1/ptm/m/n/8 Oscar Araque, Ig-na-cio Corcuera-Platas, J. Fer-nando Snchez-R
 ada,
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 87--96
+Underfull \hbox (badness 4096) in paragraph at lines 87--96
 \OT1/ptm/m/n/8 and Car-los A. Igle-sias. 2017.  En-hanc-ing deep learn-ing sen-
 
  []
 
 
-Underfull \hbox (badness 6658) in paragraph at lines 87--96
+Underfull \hbox (badness 10000) in paragraph at lines 87--96
 \OT1/ptm/m/n/8 ti-ment anal-y-sis with en-sem-ble tech-niques in so-cial ap-pli
 -ca-
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 87--96
+\OT1/ptm/m/n/8 tions.  \OT1/ptm/m/it/8 Ex-pert Sys-tems with Ap-pli-ca-tions \O
+T1/ptm/m/n/8 77 (2017), 236 -- 246.
  []
 
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ì in font ptmr7t!
 
-Underfull \hbox (badness 1418) in paragraph at lines 136--146
+Underfull \hbox (badness 2142) in paragraph at lines 136--146
+[]\OT1/ptm/m/n/8 Bhumika Gupta, Monika Negi, Kanika Vish-wakarma, Goldi Rawat,
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 136--146
+\OT1/ptm/m/n/8 and Priyanka Bad-hani. 2017.  Study of Twit-ter Sen-ti-ment Anal
+-
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 136--146
 \OT1/ptm/m/n/8 y-sis us-ing Ma-chine Learn-ing Al-go-rithms on Python.  \OT1/pt
 m/m/it/8 In-ter-na-
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 152--161
-[]\OT1/ptm/m/n/8 Hardik Meish-eri and Rupsa Saha and Priyanka Sinha and Lipika
- []
-
-
-Underfull \hbox (badness 4156) in paragraph at lines 152--161
-\OT1/ptm/m/n/8 Dey. 2017.  A Deep Learn-ing Ap-proach to Sen-ti-ment In-
- []
-
-
-Underfull \hbox (badness 3240) in paragraph at lines 152--161
-\OT1/ptm/m/n/8 ten-sity Scor-ing of En-glish Tweets.  \OT1/ptm/m/it/8 Pro-ceed-
-ings of the 8th
- []
-
-
-Underfull \hbox (badness 3000) in paragraph at lines 152--161
-\OT1/ptm/m/it/8 Work-shop on Com-pu-ta-tional Ap-proaches to Sub-jec-tiv-ity, S
-en-ti-
- []
-
-
-Underfull \hbox (badness 2343) in paragraph at lines 152--161
-\OT1/ptm/m/it/8 ment and So-cial Me-dia Anal-y-sis \OT1/ptm/m/n/8 8, 7 (Sept. 2
-017), 193--199.
- []
-
-
-Underfull \hbox (badness 4779) in paragraph at lines 175--182
+Underfull \hbox (badness 10000) in paragraph at lines 175--182
 []\OT1/ptm/m/n/8 Nazan []Ozt[]urka and Serkan Ay-vazb. 2017.  Sen-ti-ment anal-
 y-
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 175--182
+Underfull \hbox (badness 3838) in paragraph at lines 175--182
 \OT1/ptm/m/n/8 sis on Twit-ter: A text min-ing ap-proach to the Syr-ian refugee
 
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 175--182
+Underfull \hbox (badness 5161) in paragraph at lines 175--182
 \OT1/ptm/m/n/8 cri-sis.  \OT1/ptm/m/it/8 Telem-at-ics and In-for-mat-ics \OT1/p
 tm/m/n/8 35 (Oct. 2017), 136--147.
  []
 
 
-Underfull \hbox (badness 5908) in paragraph at lines 230--238
+Underfull \hbox (badness 10000) in paragraph at lines 230--238
 []\OT1/ptm/m/n/8 Walaa Med-hat and Ahmed Has-san and Hoda Ko-rashy. 2014.
  []
 
@@ -1100,6 +1081,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 230--238
  []
 
 
+Overfull \vbox (0.633pt too high) has occurred while \output is active []
+
+ [8 <./final_plot_contradiction_analysis.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 255--262
 []\OT1/ptm/m/n/8 Zhao Jian-qiang and Gui Xi-aolin. 2017.  Com-par-i-son Re-
  []
@@ -1110,71 +1094,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--262
  []
 
 
-Underfull \hbox (badness 6592) in paragraph at lines 255--262
+Underfull \hbox (badness 10000) in paragraph at lines 255--262
 \OT1/ptm/m/n/8 ment Anal-y-sis.  \OT1/ptm/m/it/8 IEEE Ac-cess \OT1/ptm/m/n/8 5 
 (Feb. 2017), 2870--2879.
  []
 
 )
-
-! LaTeX Error: \begin{itemize} on input line 150 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.493 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 493.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 494.
 
 Overfull \vbox (0.633pt too high) has occurred while \output is active []
 
  [9
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 493.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 494.
 
 (./publication.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 493.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 493.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 494.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 494.
 Package rerunfilecheck Info: File `publication.out' has not changed.
 (rerunfilecheck)             Checksum: B04DACF2F9DBFA263EE8C12A6D532982;1752.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 493.
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 150 (\begingroup)
-### bottom level 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 494.
+ ) 
 Here is how much of TeX's memory you used:
  5909 strings out of 494910
  86323 string characters out of 6179837
- 182106 words of memory out of 5000000
+ 180106 words of memory out of 5000000
  9012 multiletter control sequences out of 15000+600000
  37960 words of font info for 93 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 34i,9n,28p,2491b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
-helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on publication.pdf (9 pages, 627282 bytes).
+ 34i,9n,28p,2491b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8
+a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on publication.pdf (9 pages, 626949 bytes).
 PDF statistics:
- 355 PDF objects out of 1000 (max. 8388607)
- 317 compressed objects within 4 object streams
+ 357 PDF objects out of 1000 (max. 8388607)
+ 319 compressed objects within 4 object streams
  100 named destinations out of 1000 (max. 500000)
  259 words of extra memory for PDF output out of 10000 (max. 10000000)
 
