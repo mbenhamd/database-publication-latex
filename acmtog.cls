@@ -734,21 +734,6 @@ to\hsize{\if@nfeven\else\hfil\fi\box\@tempboxa\if@nfeven\hfil\fi}
  \endgroup
  }
 %
-\long\def\permission{\par Permission to make digital or hard copies of part or all of this work 
-for personal or classroom use is
-granted without fee provided that copies are not made or distributed for profit or  commercial
-advantage and that copies show this notice on the first page or initial screen of a display
-along with the full citation. Copyrights for components of this work owned by others than ACM
-must be honored. Abstracting with credit is permitted. To copy otherwise, to republish,
-to post on servers, to redistribute to lists, or to use any component of this work in other
-works requires prior specific permission and\hspace*{.5pt}/or a fee. 
-Permissions may be requested from Publications Dept.,
-ACM, Inc., 2 Penn Plaza, Suite 701, New York, NY 10121-0701 USA, fax $+$1 (212) 869-0481, or
-permissions@acm.org.\par
-% original \copyright\  \@acmYear\ ACM\ \@permissionCodeOne/\@acmYear/\yearTwoDigits-ART\@acmArticleNum\ \$15.00\par DOI\ \@acmDOI\par % Gerry changed 10 to 15 - June 2012
-\copyright\  \@acmYear\ ACM\ \@permissionCodeOne/\@acmYear/\yearTwoDigits-ART\@acmArticleNum\ \$15.00\par \doiline\par % Gerry - March 2012  % Gerry changed 10 to 15 - June 2012
-\vskip-1.8pt}
-%
 \newbox\@abstract
 \newbox\@terms
 \newbox\@keywords
@@ -1054,7 +1039,7 @@ permissions@acm.org.\par
 \DeclareRobustCommand*\mit{\@fontswitch\relax\mathnormal}
 %
 \def\@acmformat{}
-\def\acmformat#1{\gdef\@acmformat{\noindent{\bf ACM Reference Format:}\\[2pt] #1\par}}
+\def\acmformat#1{\gdef\@acmformat{\noindent{\bf Reference Format:}\\[2pt] #1\par}}
 %
 \def\received#1#2{%
     \par%

@@ -1,26 +1,26 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.3}{Related Work}{}% 2
-\BOOKMARK [1][-]{section.4}{Cloud computing}{}% 3
-\BOOKMARK [2][-]{subsection.5}{MapReduce Model and Spark Framework}{section.4}% 4
-\BOOKMARK [1][-]{section.6}{Methodology}{}% 5
-\BOOKMARK [2][-]{subsection.11}{Pre-Processing}{section.6}% 6
-\BOOKMARK [2][-]{subsection.12}{Machine learning for Emotion and Sentiment classification}{section.6}% 7
-\BOOKMARK [1][-]{section.13}{Deep Learning}{}% 8
-\BOOKMARK [2][-]{subsection.14}{Data Processing and Architecture}{section.13}% 9
-\BOOKMARK [2][-]{subsection.15}{TensorFlow}{section.13}% 10
-\BOOKMARK [2][-]{subsection.24}{Feature Generation}{section.13}% 11
-\BOOKMARK [1][-]{section.25}{Implementation}{}% 12
-\BOOKMARK [1][-]{section.26}{Web application}{}% 13
-\BOOKMARK [2][-]{subsection.27}{Conception of the DataBase \(Web Site\)}{section.26}% 14
-\BOOKMARK [2][-]{subsection.31}{Conception of the Archive Access}{section.26}% 15
-\BOOKMARK [2][-]{subsection.32}{Conception of the Real Stream}{section.26}% 16
-\BOOKMARK [1][-]{section.36}{Results}{}% 17
-\BOOKMARK [2][-]{subsection.37}{Classification - F-Measure}{section.36}% 18
-\BOOKMARK [2][-]{subsection.44}{English tweets monthly analyzed}{section.36}% 19
-\BOOKMARK [2][-]{subsection.47}{Psychological profile for any users}{section.36}% 20
-\BOOKMARK [2][-]{subsection.49}{Impacts of tweets}{section.36}% 21
-\BOOKMARK [2][-]{subsection.52}{English tweets monthly analyzed}{section.36}% 22
-\BOOKMARK [2][-]{subsection.53}{Comparaison of TextBloB and True Results for Emotion Relation}{section.36}% 23
-\BOOKMARK [1][-]{section.62}{Discussion}{}% 24
-\BOOKMARK [1][-]{section.67}{Conclusion and Future Work}{}% 25
-\BOOKMARK [1][-]{section.69}{References}{}% 26
+\BOOKMARK [1][-]{section.2}{Related Work}{}% 2
+\BOOKMARK [1][-]{section.3}{Cloud computing}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{MapReduce Model and Spark Framework}{section.3}% 4
+\BOOKMARK [1][-]{section.4}{Methodology}{}% 5
+\BOOKMARK [2][-]{subsection.4.1}{Pre-Processing}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.2}{Machine learning for Emotion and Sentiment classification}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.3}{Feature Generation}{section.4}% 8
+\BOOKMARK [1][-]{section.5}{Deep Learning}{}% 9
+\BOOKMARK [2][-]{subsection.5.1}{Data Processing and Architecture}{section.5}% 10
+\BOOKMARK [2][-]{subsection.5.2}{TensorFlow}{section.5}% 11
+\BOOKMARK [1][-]{section.6}{Implementation}{}% 12
+\BOOKMARK [1][-]{section.7}{Web application}{}% 13
+\BOOKMARK [2][-]{subsection.7.1}{Conception of the DataBase \(Web Site\)}{section.7}% 14
+\BOOKMARK [2][-]{subsection.7.2}{Conception of the Archive Access}{section.7}% 15
+\BOOKMARK [2][-]{subsection.7.3}{Conception of the Real Stream}{section.7}% 16
+\BOOKMARK [1][-]{section.8}{Results}{}% 17
+\BOOKMARK [2][-]{subsection.8.1}{Classification - F-Measure}{section.8}% 18
+\BOOKMARK [2][-]{subsection.8.2}{English tweets monthly analyzed}{section.8}% 19
+\BOOKMARK [2][-]{subsection.8.3}{Psychological profile for any users}{section.8}% 20
+\BOOKMARK [2][-]{subsection.8.4}{Impacts of tweets}{section.8}% 21
+\BOOKMARK [2][-]{subsection.8.5}{English tweets monthly analyzed}{section.8}% 22
+\BOOKMARK [2][-]{subsection.8.6}{Comparaison of TextBloB and True Results for Emotion Relation}{section.8}% 23
+\BOOKMARK [1][-]{section.9}{Discussion}{}% 24
+\BOOKMARK [1][-]{section.10}{Conclusion and Future Work}{}% 25
+\BOOKMARK [1][-]{section.11}{References}{}% 26
