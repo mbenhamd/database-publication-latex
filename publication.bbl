@@ -169,6 +169,29 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Kramer, Guillory, and Hancock}{Kramer
+  et~al\mbox{.}}{2014}]%
+        {Yaosef2}
+{Adam D.~I. Kramer}, {Jamie~E. Guillory}, {and} {Jeffrey~T. Hancock}. 2014.
+\newblock \showarticletitle{Experimental evidence of massive-scale emotional
+  contagion through social networks}.
+\newblock {\em Proceedings of the National Academy of Sciences\/} {111}, 24
+  (2014), 8788--8790.
+\newblock
+\showISSN{0027-8424}
+\showDOI{%
+\url{http://dx.doi.org/10.1073/pnas.1320040111}}
+
+
+\bibitem[\protect\citeauthoryear{M and B}{M and B}{2016}]%
+        {Yaosef}
+{Bhumika M} {and} {Vimalkumar B}. 2016.
+\newblock \showarticletitle{Sentiment Analysis using Support Vector Machine
+  based on Feature Selection and Semantic Analysis}.
+\newblock   {146} (07 2016), 26--30.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{\"{O}zt\"{u}rka and Ayvazb}{\"{O}zt\"{u}rka
   and Ayvazb}{2017}]%
         {Ayvazb17}

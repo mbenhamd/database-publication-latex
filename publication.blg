@@ -23,49 +23,50 @@ Warning--no number and no volume in Garg14
 Warning--require articleno with numpages field in Badhani17
 Warning--no journal in Saif12
 Warning--no number and no volume in Saif12
+Warning--no journal in Yaosef
 Warning--page numbers missing in both pages and numpages fields in Poddar16
 Warning--page numbers missing in both pages and numpages fields in ThakkarP15
 Warning--unusual to have number, but no volume, for Palpanas11
 Warning--unrecognized DOI value [{10.1016/j.asej.2014.04.011}]
-You've used 19 entries,
+You've used 21 entries,
             5290 wiz_defined-function locations,
-            1528 strings with 20820 characters,
-and the built_in function-call counts, 21536 in all, are:
-= -- 3195
-> -- 654
+            1546 strings with 21286 characters,
+and the built_in function-call counts, 23705 in all, are:
+= -- 3501
+> -- 733
 < -- 0
-+ -- 188
-- -- 356
-* -- 1304
-:= -- 2189
-add.period$ -- 95
-call.type$ -- 19
-change.case$ -- 118
-chr.to.int$ -- 19
-cite$ -- 38
-duplicate$ -- 1570
-empty$ -- 1137
-format.name$ -- 276
-if$ -- 5300
++ -- 212
+- -- 384
+* -- 1444
+:= -- 2418
+add.period$ -- 105
+call.type$ -- 21
+change.case$ -- 131
+chr.to.int$ -- 21
+cite$ -- 41
+duplicate$ -- 1741
+empty$ -- 1260
+format.name$ -- 312
+if$ -- 5840
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 76
-newline$ -- 216
-num.names$ -- 152
-pop$ -- 481
+missing$ -- 84
+newline$ -- 235
+num.names$ -- 168
+pop$ -- 531
 preamble$ -- 1
-purify$ -- 213
+purify$ -- 236
 quote$ -- 0
-skip$ -- 515
+skip$ -- 574
 stack$ -- 0
-substring$ -- 2142
-swap$ -- 186
+substring$ -- 2325
+swap$ -- 208
 text.length$ -- 251
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 266
-warning$ -- 21
-while$ -- 173
+type$ -- 294
+warning$ -- 22
+while$ -- 190
 width$ -- 0
-write$ -- 384
-(There were 21 warnings)
+write$ -- 421
+(There were 22 warnings)
