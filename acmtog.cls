@@ -459,8 +459,8 @@ the#1\endcsname{\@thmcounter{#1}}\global
 \def\theequation{\arabic{equation}}
 %
 \def\titlepage{\@restonecolfalse\if@twocolumn\@restonecoltrue\onecolumn
- \else \newpage \fi \thispagestyle{empty}\c@page\z@}
-\def\endtitlepage{\if@restonecol\twocolumn \else \newpage \fi}
+ \else \fi \thispagestyle{empty}\c@page\z@}
+\def\endtitlepage{\if@restonecol\twocolumn \else \fi}
 %
 \arraycolsep 2.5pt \tabcolsep 6pt \arrayrulewidth .4pt \doublerulesep 2pt 
 \tabbingsep \labelsep 
@@ -485,7 +485,7 @@ the#1\endcsname{\@thmcounter{#1}}\global
 \def\@dotsep{4.5}
 \setcounter{tocdepth}{3}
 
-\def\tableofcontents{\section*{Contents\@mkboth{CONTENTS}{CONTENTS}}
+\def\tableofcontents{\section*{Table Of Contents\@mkboth{CONTENTS}{CONTENTS}}
  \@starttoc{toc}}
 \def\l@part#1#2{\addpenalty{\@secpenalty}
  \addvspace{2.25em plus 1pt} \begingroup
@@ -517,7 +517,7 @@ the#1\endcsname{\@thmcounter{#1}}\global
 \def\@idxitem{\par\hangindent 40pt}
 \def\subitem{\par\hangindent 40pt \hspace*{20pt}}
 \def\subsubitem{\par\hangindent 40pt \hspace*{30pt}}
-\def\endtheindex{\if@restonecol\onecolumn\else\clearpage\fi}
+\def\endtheindex{\if@restonecol\onecolumn\else\fi}
 \def\indexspace{\par \vskip 10pt plus 5pt minus 3pt\relax}
 %
 \def\footnoterule{\kern-3\p@
@@ -711,14 +711,13 @@ to\hsize{\if@nfeven\else\hfil\fi\box\@tempboxa\if@nfeven\hfil\fi}
 
 \def\maketitle{%
    \thispagestyle{titlepage}%
-     \newpage
      \global\@topnum\z@
      \twocolumn[\@maketitle]%
     \let\maketitle\relax
     \global\let\@sponsors\@empty
 }
 %
-\def\@maketitle{\newpage \thispagestyle{titlepage}\par
+\def\@maketitle{\thispagestyle{titlepage}\par
  \begingroup \lineskip = \z@\null \vskip -7pt\relax %-24.5pt
  \parindent\z@ \LARGE {\raggedright \hyphenpenalty\@M
   {\titlefont \@title} \par

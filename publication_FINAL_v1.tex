@@ -1,6 +1,7 @@
 \documentclass{acmtog} % V1.2
+
 \usepackage{hyperref}
-\hypersetup{ colorlinks = true, linkcolor = black, urlcolor = blue, citecolor = blue }
+\hypersetup{ colorlinks = true, linkcolor = blue, urlcolor = blue, citecolor = blue }
 \usepackage{float}
 \let\oldquote\quote
 \let\endoldquote\endquote
@@ -24,13 +25,14 @@
 \def\firstfoot{\def\@firstfoot{}}
 \makeatother
 
+
 \begin{document}
+
 \markboth{Experimental Sentiment Analysis on Twitter}{A Real Time Stream and Big Data Process}
 
-
 \title{Sentiment Analysis on Twitter : Effects in a Social Network} % title
-\onecolumn
-\author{Rihab B\'edoui {\upshape and} Mohamed Ben Hamdoune  {\upshape and} Vima Haddad {\upshape and} Yannis Tannier
+
+\author{Mohamed Ben Hamdoune {\upshape and} Yannis Tannier
 \affil{University of Paris-Descartes}
 }
 
@@ -38,38 +40,23 @@
 \category{I.3.7}{Learning}{Apache Spark and Hadoop}[Social Media Analytics]
 
 \terms{Twitter, Psychological Profile}
-\keywords{Data Mining, Natural Languages Processing, Sentiment Analysis, Classification, Text Mining, Convolutional Neural Network, TensorFlow}
+
+\keywords{Data Mining, Natural Languages Processing, Sentiment Analysis, Classification, Text Mining,Convutional Neural Network, TensorFlow}
 
 \acmformat{Mohamed Ben Hamdoune, Yannis Tannier. 2018. Sentiment Analysis for Twitter : Effects in a Social Network.}
+
 \maketitle
 
-\begin{figure}[b]
-\centering
-\includegraphics[width=0.3\textwidth]{logo.png}
-  \label{fig:logo}
-\end{figure}
-
-
-\onecolumn
-\begin{abstract}
-Our main purpose is to build a powerful platform system for real-time data analysis of tweets on twitter trends. We also want to analyse all the tweets of 2017 based on a downloaded sample of data (average of 6 To). All this data analysis will be accessible via a web interface that will be developed. We want to build a powerful system of sentiments analysis by making a database structure of tweets which is relevant about impacts and effects. The system should provide a faster way to execute Machine Learning methodologies behind data extracted from Twitter. Analysis news actuality by getting an analysis on actual trends with real stream data and building an efficient web interface to get results easily and keep a control on data continuously.
-We also wanted to make a comparison of sentiment analysis methods, for which we have taken a publication and tried to improve the results obtained and to propose new methods
-\end{abstract}
-
-\begin{acks}
-We are grateful to the following people for resources, discussions and suggestions: Jason Scott (Archivist) for his website and allowing people to get some data useful for research and other things. We also wanted to thanks Diana Yuan (Co-Founder & Vice President, Talent & Operations from Indico), we exchanged a lot of emails and she agreed to increase the numbers of calls from their API freely (initially it is 10 000 calls per day).
-\end{acks}
-
-
-
-\onecolumn
-\setcounter{tocdepth}{3}
-\tableofcontents
-
-\twocolumn
 \begin{bottomstuff}
 Jason Scott Sadofsky acknowledges as Jason Scott, is an American archivist, historian of technology, and film-maker. Archive Team is a group dedicated to preserving digital history that was founded by Jason Scott in 2009. Data was collected from the website of The Archive Team.
 \end{bottomstuff}
+
+
+\begin{abstract}
+
+Our main purpose is to build a powerful platform system for real-time data analysis of tweets on twitter trends. We also want to analyse all the tweets of 2017 based on a downloaded sample of data (average of 6 To). All this data analysis will be accessible via a web interface that will be developed. We want to build a powerful system of sentiments analysis by making a database structure of tweets which is relevant about impacts and effects. The system should provide a faster way to execute Machine Learning methodologies behind data extracted from Twitter. Analysis news actuality by getting an analysis on actual trends with real stream data and building an efficient web interface to get results easily and keep a control on data continuously.
+We also wanted to make a comparison of sentiment analysis methods, for which we have taken a publication and tried to improve the results obtained and to propose new methods
+\end{abstract}
 
 \section{Introduction}
 
@@ -334,6 +321,14 @@ We have used the following technologies for many reasons. Hadoop assumes that co
  - Then the second step, we coded Spark scripts for each problem to calculate what we wanted to display. All calculation scripts are here\footnote{\url{https://github.com/yannistannier/twitter-sentiment-analysis/tree/master/compute}}. 
  - To finish, the third step, each Spark script returned us an aggregated file as we wanted, we just had to import these files into the corresponding tables taking care to organize our indexes. For example: to retrieve the psychological evolution of a user, we just have to make a simple SQL Query on the table user\_stat with a selection on index (where id = 1656561) and the query we reference in 100ms, 12 rows corresponding to each month. The same request with several accreditation operators on the initial table took several minutes to answer us.
 
+ 
+\begin{figure}[H]
+{\includegraphics[width=\linewidth]{table-web-db.png}}
+\caption{Schema of the DataBase.}
+  \label{fig:archivedb}
+\end{figure}
+
+
 \subsubsection{Conception of the Archive Access}
 \label{subsub:conception_aa}
 
@@ -471,8 +466,10 @@ In this report we have presented a sentiment analysis tool on a Web interface. I
 There are also other features for the real stream \footnote{\url{https://twitter.yannistannier.io/#/realtime}} such as geolocation of people, we could then generate a graph as a center to any user and know its impact on an interactive map, this would allow among other things to know the influence for example. To conclude, we think that having access to geolocation data and build a powerful neural network trained and design for sentiment analysis could be a great idea for future work. 
 
 \section{References}
-\label{sec:references}
 
+\begin{acks}
+We are grateful to the following people for resources, discussions and suggestions: Jason Scott (Archivist) for his website and allowing people to get some data useful for research and other things. We also wanted to thanks Diana Yuan (Co-Founder & Vice President, Talent & Operations from Indico), we exchanged a lot of emails and she agreed to increase the numbers of calls from their API freely (initially it is 10 000 calls per day).
+\end{acks}
 
 % Bibliography
 
