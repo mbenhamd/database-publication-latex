@@ -14,5 +14,5 @@ There are also other features for the real stream [here](https://twitter.yannist
 ### Keywords
 Data Mining, Natural Languages Processing,  Sentiment  Analysis,  Classification,  Text  Mining,  Convolutional Neural Network, TensorFlow, Spark.
 
-Inline-style: 
+
 ![alt text](https://github.com/mbenhamd/database-publication-latex/blob/master/monthly_analysis_joy_sadness-exemple.png?raw=true "Results by month for joy and sadness emotions during the 2017")
